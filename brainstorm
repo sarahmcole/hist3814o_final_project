@@ -1,0 +1,11 @@
+#Ideas for final project
+
+##Idea 1: Hyperlinking *The Shawville Equity*
+- inspired by Caleb McDaniel's [discussion of hyperlinks as a model of cognition](https://hyp.is/G6cz0mKlEee2PWPdTTKVPQ/wcm1.web.rice.edu/open-notebook-history.html)
+- question: how would *The Shawville Equity* read differently when embedded with hyperlinks connecting related articles, ideas, objects, locations, etc?
+- potential problems: how many issues could I reasonably apply hyperlinks to? What kind of content merits a hyperlink? How do I handle phrases that could reasonably link to several other articles or issues? How many would I have to include in order to extract relevant data? What kind of data am I even looking for? How to situate this project within secondary sources?
+
+##Idea 2: "What is it you do for fun around here, anyway?" Entertainment and *The Shawville Equity*
+- question: how did people amuse themselves during a period of significant cultural change (say, from 1890-1920)? How did the representation of entertainment change in *The Shawville Equity* over this period?
+- methods: topic modelling - find topics containing words related to entertainment
+- potential problems: too wide/narrow a scope; topic models may not show any topics clearly related to entertainment; what to classify as entertainment (books? dances? events? all of the above?)
