@@ -2,7 +2,7 @@
 ## July 29 2017
  
 ## WEEK 3 (JULY 24-JULY 30)
-+ still unable to access dhbox, I downloaded 83471_1890-01-02.txt (Equity issue for the 2nd of January 1890) and played around with regex cleaning in regexr and Notepad++.
++ still unable to access dhbox, I downloaded 83471\_1890-01-02.txt (Equity issue for the 2nd of January 1890) and played around with regex cleaning in regexr and Notepad++.
 + trying to isolate proper nouns (words starting with capital letter...) `(\b[A-Z].+[^\s])`??
  + `\b[*. ][A-Z][a-z|A-Z]*` returns all capitalized words not at the beginning of a sentence
 + could I find all instances of dates WITHIN ARTICLES and use those to examine what kinds of events happened?
@@ -28,7 +28,7 @@
 ## WEEK 4 (JULY 31-AUGUST 6)
 ### Antconc on the Equity for 1891
 + Loaded the equity files for 1891
-+ using regex search, looked for /b*day (note: returns "day", "holiday", "today" as well as days of the week: I'm just playing around for now.)
++ using regex search, looked for /b\*day (note: returns "day", "holiday", "today" as well as days of the week: I'm just playing around for now.)
  + Collocates -> Sort by Freq(L)
   + one of the most frequent collocates is "church" (66 with 39 instances - not bad considering the wonky OCR) - I would have expected this kind of result; church was a common gathering place.
   + ottawa is also a high collocate (74 with 37 instances) suggesting either frequent travel between the regions or an interest in federal politics or both.
@@ -86,51 +86,51 @@
 +used openrefine 2.7 to cluster some dates poorly recognized by OCR (Tueaday -> Tuesday, Mo nday -> Monday, Satorday -> Saturday, etc)
  + exported as .csv (dates\_cleaned-csv.csv) and opened in Notepad++ to edit.
 + off the bat, decide to delete some lines (especially those re: holday, these days, etc). kept entries referring to events like births, deaths, etc for now; they may be useful. Some examples removed:
- +`1895-01-03,holiday,  the holidays with her parents. 4`
- +`1895-01-03,next day,  The next day was the time appointed for a general council of war but while the council of war was proceeding the Chinese began to realize that the Japanese had established their mountain batteries on the hills commanding the left centre of the Chinese position and decided to advance out of Port Arthur and dislodge them. Ihen began`
- +`1895-01-03,every day,  animal I aim to feed the cows what sugar time beets they will eat up clean. The brood bows get a few roots every day and seem to eat and relish them as well as grai`
- +`1895-01-03,ten day,  No person shall injure or obstruct any fishway or do anything to deter or hinder fish from entering and ascending or descending the same or injure or obstruct any authorised dam under a penalty for each offence of not less than $2 nor more than |20 and an imprisonment of not less than two nor more than ten days in de fault of payment over and above all`
- +`1895-01-03,fifteen day,  Mr. Flynn's bill to amend the law respecting woods and forests oil public lands has in view the object of shortening to fifteen days the time necessary in giving notice of sale in seizure of timber limits by the Crown after remaining for two months in the custody of the agent or`
- +`1895-01-03,few day,  most of their liberty and filling tho apera- Persia Manchuria and Korea and as mat- departed. He came back in a few days ^owed when Pr0?e were good a larger ^`
- +`1895-01-10,cold day,  The Hon. Louis H. Davies M. P  says that the Dominion elections will be held before the winter is out is sure it will bo a cold day anyway it will Bro. Davies and the blizzard will probably strike Queen's P. E. I. so the`
- +`1895-01-10,to day,  of the Couaeivative party today. They`
- +`1895-01-10,the day,"  now. as in the days of our Savior men a consideration of the career of him whose can see the mote in their neighbors' eyea life we may have under review while perhaps blind to the beam in their Can the word great be legitimately ap own. Public men live now more than plied to Sir John Thompson in any or all ever in the full light that ia cast around ""f the various parts which he so honorably them from a hundred sources which did fulfilled? Undoubtedly some will answer not exist in vast ages. They cannot hide no either through a fear of being thought themselves behind the throne of their wanting in judicial acumen or perhaps"`
- +`1895-01-10,every day,  open to the criticism of the people aa exist in any every day dress unless it ia`
- +`1895-01-10,the day,  change until the day of his death was i the wounds of the heart. More than this	DSDaPtlllOIlt`
- +`1895-01-17,every day,  lion warn very simple	and neither animal	ten to twelve hoar# every day and they	this kind and jackets and pantaloons of	more than 200 years old.`
- +`1895-01-17,third day,  off. It leaves no soar. In addition the elrength of the poison. It will have no system must be ola&nsed. This is e good effeolou them at when they are ready complexion beautifies One part sulphur t0 ive u eome of their blood a neck vein one part cream of Urter. one part rhubarb wifl be opened and some blood drawn off. nil powdered and well mixed. Dose for an This blood will be treated so as to separate adult one teaspoonful in a wine glass of tke c|ot from tke watery part or serum water upon rising in the morning. Take jhe latter * the autitoxine. every third day for one month.`
- +`895-01-17,pay day,  hundred wholesale fur dealers with their A Lambeth hotelkeeper has been fined New Year iie the national pay day. All goods spread out on the ground and you $20 for allowing gambling on hie premises`
- +`1895-01-17,three day,  two tsblenpoonfule of powdered augur and ##til they	should run smoothly. Louis	young people go ih and pay homage to	She ie forced to fast three days then for	to attractive garniture ; if in November`
- +`1895-01-17,those day,  ble. Pour over it one quart of boiling table.	and all the officers go In and get down on I ceived this sum m cash.	were none in those days.`
- +`1895-01-17,Birthday,  Astrology and Birthdays.`
- +`1895-01-17,the day,  effective device which any orchard 1st can apply this one cannot be surpassed. It is an old-fashioned remedy bat it is as good to-day as it was in the days of our`
- + Interesting: a lot of entries with "few day" or "holiday" talk about people visiting; this could be useful data as visits can be considered social events. Perhaps I could use a range or an inexact date to process these events instead of throwing them out entirely. Examples: `1895-01-03,few day,  Mr. F. S. Roy is spending a few days 
+   +`1895-01-03,holiday,  the holidays with her parents. 4`
+   +`1895-01-03,next day,  The next day was the time appointed for a general council of war but while the council of war was proceeding the Chinese began to realize that the Japanese had established their mountain batteries on the hills commanding the left centre of the Chinese position and decided to advance out of Port Arthur and dislodge them. Ihen began`
+   +`1895-01-03,every day,  animal I aim to feed the cows what sugar time beets they will eat up clean. The brood bows get a few roots every day and seem to eat and relish them as well as grai`
+   +`1895-01-03,ten day,  No person shall injure or obstruct any fishway or do anything to deter or hinder fish from entering and ascending or descending the same or injure or obstruct any authorised dam under a penalty for each offence of not less than $2 nor more than |20 and an imprisonment of not less than two nor more than ten days in de fault of payment over and above all`
+   +`1895-01-03,fifteen day,  Mr. Flynn's bill to amend the law respecting woods and forests oil public lands has in view the object of shortening to fifteen days the time necessary in giving notice of sale in seizure of timber limits by the Crown after remaining for two months in the custody of the agent or`
+   +`1895-01-03,few day,  most of their liberty and filling tho apera- Persia Manchuria and Korea and as mat- departed. He came back in a few days ^owed when Pr0?e were good a larger ^`
+   +`1895-01-10,cold day,  The Hon. Louis H. Davies M. P  says that the Dominion elections will be held before the winter is out is sure it will bo a cold day anyway it will Bro. Davies and the blizzard will probably strike Queen's P. E. I. so the`
+   +`1895-01-10,to day,  of the Couaeivative party today. They`
+   +`1895-01-10,the day,"  now. as in the days of our Savior men a consideration of the career of him whose can see the mote in their neighbors' eyea life we may have under review while perhaps blind to the beam in their Can the word great be legitimately ap own. Public men live now more than plied to Sir John Thompson in any or all ever in the full light that ia cast around ""f the various parts which he so honorably them from a hundred sources which did fulfilled? Undoubtedly some will answer not exist in vast ages. They cannot hide no either through a fear of being thought themselves behind the throne of their wanting in judicial acumen or perhaps"`
+   +`1895-01-10,every day,  open to the criticism of the people aa exist in any every day dress unless it ia`
+   +`1895-01-10,the day,  change until the day of his death was i the wounds of the heart. More than this	DSDaPtlllOIlt`
+   +`1895-01-17,every day,  lion warn very simple	and neither animal	ten to twelve hoar# every day and they	this kind and jackets and pantaloons of	more than 200 years old.`
+   +`1895-01-17,third day,  off. It leaves no soar. In addition the elrength of the poison. It will have no system must be ola&nsed. This is e good effeolou them at when they are ready complexion beautifies One part sulphur t0 ive u eome of their blood a neck vein one part cream of Urter. one part rhubarb wifl be opened and some blood drawn off. nil powdered and well mixed. Dose for an This blood will be treated so as to separate adult one teaspoonful in a wine glass of tke c|ot from tke watery part or serum water upon rising in the morning. Take jhe latter * the autitoxine. every third day for one month.`
+   +`895-01-17,pay day,  hundred wholesale fur dealers with their A Lambeth hotelkeeper has been fined New Year iie the national pay day. All goods spread out on the ground and you $20 for allowing gambling on hie premises`
+   +`1895-01-17,three day,  two tsblenpoonfule of powdered augur and ##til they	should run smoothly. Louis	young people go ih and pay homage to	She ie forced to fast three days then for	to attractive garniture ; if in November`
+   +`1895-01-17,those day,  ble. Pour over it one quart of boiling table.	and all the officers go In and get down on I ceived this sum m cash.	were none in those days.`
+   +`1895-01-17,Birthday,  Astrology and Birthdays.`
+   +`1895-01-17,the day,  effective device which any orchard 1st can apply this one cannot be surpassed. It is an old-fashioned remedy bat it is as good to-day as it was in the days of our`
+   + Interesting: a lot of entries with "few day" or "holiday" talk about people visiting; this could be useful data as visits can be considered social events. Perhaps I could use a range or an inexact date to process these events instead of throwing them out entirely. Examples: `1895-01-03,few day,  Mr. F. S. Roy is spending a few days 
  1895-01-03,few day,  Mr. Alex. Stewart returned home a few days ago and intends remaining with us. **	x;
  1895-01-03,few day,  Miss Grace McKechnie spent a few days in Eiinside last week.
  1895-01-03,Saturday,  Model school spent Saturday in this vi-`
  + had to double some entries because they contain reference to more than one date
- + WTF, line 37? `1895-01-10,nY5ire day,  2 nY5ire day Wlth Iheir daughter and T. Martin (equal.) %` what should I do with this??? is it a person's name??????
-+ the issues have a clear order: local events -> fiction? -> advertisements -> international news. I'll check this against the PDFs and then perhaps focus in on local events.
-+ oh my god, there's so much murder/drowning/suicide/burning to death :O u ok pontiac county?
- + sensationalist journalism?????!
-+ left with a file of 834 lines: projects-dates-cleaned.csv
+   + WTF, line 37? `1895-01-10,nY5ire day,  2 nY5ire day Wlth Iheir daughter and T. Martin (equal.) %` what should I do with this??? is it a person's name??????
+  + the issues have a clear order: local events -> fiction? -> advertisements -> international news. I'll check this against the PDFs and then perhaps focus in on local events.
+  + oh my god, there's so much murder/drowning/suicide/burning to death :O u ok pontiac county?
+   + sensationalist journalism?????!
+   + left with a file of 834 lines: projects-dates-cleaned.csv
 
 ### Antconcing the Equity, Redux: 1890-1900
 + Imported a corpus of uncleaned Shawville Equity OCR into Antconc, from 1890 to 1900 inclusive
 + searched for clusters/N-grams occuring with "sunday": #1 with 241 hits across all 10 years is "Sunday school" - only "Sunday morning" and "Sunday last" come close, with 150 and 152 hits, respectively
  + obvious tentative conclusion (a la [planting beans in Martha Ballard's diary](http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/)) is that mass and church was important to the community - as mass would have often taken place Sunday morning.
-  + I wonder if some events are more prominent in the morning vs the evening?
-  + another common hit is "Sunday with" -> checking Concordance shows that many of these instances refer to people visiting Shawville, eg "X spent Sunday with relatives here." Never realized how important visits were.
+   + I wonder if some events are more prominent in the morning vs the evening?
+   + another common hit is "Sunday with" -> checking Concordance shows that many of these instances refer to people visiting Shawville, eg "X spent Sunday with relatives here." Never realized how important visits were.
 + export the results of clusters as antconc_results_sunday_equity_1890-1900.
 + next week, I'll run one of these for each day of the week to see if I can find other patterns. For now, onto the bulk of my work: comparing 1895 to the rest of the corpus.
 + ran a keyword list comparison with 1895 as my target corpus and 1890-1890 as my reference corpus
- + taking keyness significance rates from [antconc's readme](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf):
-  + holy moly, the OCR for 1895 must have read "his" as "hie" a LOT, or else men in Shawville were being VERY possessive c. 1895. (Keyness of 640!!!)
-  + some dude wrote a two stories about a dude named Henry Wyatt, so the keyness for Wyatt is high.
-  + "shop" has a pretty high keyness at 92.957.
-  + "Manitoba" has a really high keyness - 94.4 - probably due to the Red River Resistance!
-  +" "cigar" pretty high - increased advertizing?
-  + saved results as "antconc_results_keywordlist-1895vs1890-1900.txt".
+   + taking keyness significance rates from [antconc's readme](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf):
+     + holy moly, the OCR for 1895 must have read "his" as "hie" a LOT, or else men in Shawville were being VERY possessive c. 1895. (Keyness of 640!!!)
+      + some dude wrote a two stories about a dude named Henry Wyatt, so the keyness for Wyatt is high.
+      + "shop" has a pretty high keyness at 92.957.
+      + "Manitoba" has a really high keyness - 94.4 - probably due to the Red River Resistance!
+      +" "cigar" pretty high - increased advertizing?
++ saved results as "antconc_results_keywordlist-1895vs1890-1900.txt".
   
 ### Rethinking my research question
 + so I set out on this with a poorly-defined idea of learning about "social events" or "community events" - eg, an answer to the question, "what did people DO in a rural, not to mention linguistically and culturally distinct, place like Shawville in the 1890s?"
@@ -142,6 +142,6 @@
 ### Future work
 + clean up the descriptions column of CSV by checking it against the Equity .pdfs
 + run topic modelling on the .csv
- + visualize trends within models that contain words related to social events & bonds
++ visualize trends within models that contain words related to social events & bonds
 + compare 1895 to rest of period from 1890-1990
  + note compare > contrast: the data from the wider period can help show trends, contextualize 1895.
