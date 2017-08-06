@@ -1,0 +1,741 @@
+#Total No. of Cluster Types: 739
+#Total No. of Cluster Tokens: 2509
+1	224	177	sunday school
+2	150	124	sunday morning
+3	132	112	sunday last
+4	94	80	sunday evening
+5	87	82	sunday night
+6	77	56	sunday only
+7	64	53	sunday at
+8	59	54	sunday afternoon
+9	54	45	sunday with
+10	50	44	sunday in
+11	46	43	sunday the
+12	39	39	sunday) trains
+13	33	29	sunday and
+14	32	29	sunday next
+15	25	25	sunday b
+16	24	24	sunday, at
+17	24	24	sunday. for
+18	23	23	sunday, the
+19	22	13	sunday. nos
+20	20	18	sunday schools
+21	20	20	sunday. the
+22	19	18	sunday to
+23	18	18	sunday, and
+24	17	17	sunday after
+25	17	17	sunday was
+26	14	14	sunday by
+27	14	12	sunday-school
+28	13	12	sunday. mr
+29	13	12	sunday\x
+30	12	12	sunday be
+31	10	10	sunday a
+32	10	10	sunday from
+33	9	9	sunday on
+34	8	8	sunday here
+35	8	7	sunday i
+36	8	8	sunday is
+37	8	8	sunday of
+38	8	7	sunday's
+39	8	8	sunday) train
+40	8	8	sunday, b
+41	8	6	sunday, june
+42	8	6	sunday, may
+43	7	7	sunday excepted
+44	7	7	sunday he
+45	7	7	sunday k
+46	7	7	sunday reading
+47	7	7	sunday time
+48	6	6	sunday p
+49	6	5	sunday, march
+50	6	6	sunday. 10.30, a
+51	6	6	sunday. a
+52	5	5	sunday d
+53	5	5	sunday even
+54	5	5	sunday for
+55	5	5	sunday morn
+56	5	5	sunday observance
+57	5	4	sunday train
+58	5	5	sunday week
+59	5	5	sunday, but
+60	5	5	sunday, nov
+61	5	5	sunday, sept
+62	5	5	sunday.	i
+63	5	5	sunday. i
+64	5	5	sunday. miss
+65	5	4	sunday. mrs
+66	4	4	sunday \x
+67	4	4	sunday cars
+68	4	4	sunday dinner
+69	4	4	sunday evenings
+70	4	4	sunday except
+71	4	4	sunday excursion
+72	4	4	sunday it
+73	4	4	sunday laat
+74	4	4	sunday mr
+75	4	4	sunday s
+76	4	4	sunday v
+77	4	3	sunday visiting
+78	4	4	sunday* included
+79	4	3	sunday, feb
+80	4	4	sunday, july
+81	4	4	sunday, to
+82	4	4	sunday. \x
+83	4	4	sunday\xbb
+84	3	3	sunday	the
+85	3	3	sunday between
+86	3	3	sunday eve
+87	3	3	sunday funerals
+88	3	3	sunday her
+89	3	3	sunday l
+90	3	3	sunday march
+91	3	3	sunday nights
+92	3	3	sunday services
+93	3	3	sunday that
+94	3	3	sunday they
+95	3	3	sunday under
+96	3	3	sunday were
+97	3	3	sunday while
+98	3	3	sunday# included
+99	3	3	sunday, 8th
+100	3	3	sunday, \x
+101	3	3	sunday, april
+102	3	3	sunday, in
+103	3	3	sunday, oct
+104	3	3	sunday, was
+105	3	3	sunday, when
+106	3	3	sunday, while
+107	3	3	sunday. it
+108	2	2	sunday .school
+109	2	2	sunday 11th
+110	2	2	sunday 21st
+111	2	1	sunday 30th
+112	2	2	sunday \xab
+113	2	2	sunday af
+114	2	2	sunday afrernoon
+115	2	2	sunday afternoons
+116	2	2	sunday all
+117	2	2	sunday among
+118	2	2	sunday before
+119	2	2	sunday coat
+120	2	2	sunday dealt
+121	2	2	sunday did
+122	2	2	sunday during
+123	2	2	sunday each
+124	2	2	sunday fc
+125	2	2	sunday go
+126	2	2	sunday h
+127	2	2	sunday july
+128	2	2	sunday leaves
+129	2	2	sunday lost
+130	2	2	sunday meeting
+131	2	2	sunday near
+132	2	2	sunday ninety
+133	2	2	sunday no
+134	2	2	sunday o
+135	2	2	sunday preached
+136	2	2	sunday preceding
+137	2	2	sunday service
+138	2	2	sunday speech
+139	2	2	sunday st
+140	2	1	sunday straits
+141	2	2	sunday t
+142	2	2	sunday there
+143	2	2	sunday we
+144	2	2	sunday when
+145	2	2	sunday will
+146	2	1	sunday yo
+147	2	2	sunday)	j
+148	2	2	sunday* only
+149	2	2	sunday, 29th
+150	2	2	sunday, 3rd
+151	2	2	sunday, after
+152	2	2	sunday, arriving
+153	2	2	sunday, as
+154	2	2	sunday, i
+155	2	2	sunday, instead
+156	2	1	sunday, january
+157	2	2	sunday, p
+158	2	2	sunday, which
+159	2	2	sunday, whilst
+160	2	2	sunday, will
+161	2	2	sunday, you
+162	2	2	sunday.	\xa
+163	2	2	sunday.	l
+164	2	2	sunday. after
+165	2	2	sunday. al
+166	2	2	sunday. b
+167	2	2	sunday. f
+168	2	2	sunday. may
+169	2	2	sunday. misa
+170	2	2	sunday. no
+171	2	1	sunday. non
+172	2	2	sunday. p
+173	2	2	sunday. she
+174	2	2	sunday. t
+175	1	1	sunday	- m
+176	1	1	sunday	9* *red
+177	1	1	sunday	_________ tion
+178	1	1	sunday	after
+179	1	1	sunday	ciaxnebai
+180	1	1	sunday	great
+181	1	1	sunday	last
+182	1	1	sunday	messrs
+183	1	1	sunday	morning
+184	1	1	sunday	nej
+185	1	1	sunday	proof
+186	1	1	sunday	rocate
+187	1	1	sunday	school
+188	1	1	sunday	tbe
+189	1	1	sunday	they
+190	1	1	sunday	three
+191	1	1	sunday	ton
+192	1	1	sunday	with
+193	1	1	sunday	ynur
+194	1	1	sunday  -\x
+195	1	1	sunday  op
+196	1	1	sunday ! afternoon
+197	1	1	sunday ! mr
+198	1	1	sunday !* holmes
+199	1	1	sunday !o
+200	1	1	sunday " 'dto
+201	1	1	sunday " said
+202	1	1	sunday "as
+203	1	1	sunday % so
+204	1	1	sunday '	horitletor
+205	1	1	sunday ' judging
+206	1	1	sunday ' resident
+207	1	1	sunday ( akk
+208	1	1	sunday (i
+209	1	1	sunday ) with
+210	1	1	sunday * only
+211	1	1	sunday * s
+212	1	1	sunday * sinday
+213	1	1	sunday *}f
+214	1	1	sunday ,	xt
+215	1	1	sunday ,1b
+216	1	1	sunday ,eh
+217	1	1	sunday -_...	^ kimball
+218	1	1	sunday .'rom
+219	1	1	sunday .. ln
+220	1	1	sunday .ust
+221	1	1	sunday / 5 *\x
+222	1	1	sunday 1	\x
+223	1	1	sunday 1 at
+224	1	1	sunday 1 outil
+225	1	1	sunday 100 pieces
+226	1	1	sunday 13,h
+227	1	1	sunday 16th
+228	1	1	sunday 17th
+229	1	1	sunday 18th
+230	1	1	sunday 22nd
+231	1	1	sunday 23 of
+232	1	1	sunday 23rd
+233	1	1	sunday 27th
+234	1	1	sunday 28th
+235	1	1	sunday 29th
+236	1	1	sunday 2ftth
+237	1	1	sunday 2tm
+238	1	1	sunday 4 sunday
+239	1	1	sunday 5th
+240	1	1	sunday 8 to
+241	1	1	sunday 8th
+242	1	1	sunday ;	j
+243	1	1	sunday ; snd
+244	1	1	sunday ; the
+245	1	1	sunday ; then
+246	1	1	sunday ;*if
+247	1	1	sunday <\xfcti
+248	1	1	sunday >\xab
+249	1	1	sunday ? cye
+250	1	1	sunday ?ogether
+251	1	1	sunday \\ranted
+252	1	1	sunday \xa
+253	1	1	sunday \xabthen
+254	1	1	sunday \xbbfh
+255	1	1	sunday \xbbfter
+256	1	1	sunday \xce
+257	1	1	sunday ^dvertisi
+258	1	1	sunday ai
+259	1	1	sunday amateur
+260	1	1	sunday april
+261	1	1	sunday attacked
+262	1	1	sunday attention
+263	1	1	sunday bath
+264	1	1	sunday battle
+265	1	1	sunday battles
+266	1	1	sunday best
+267	1	1	sunday biing
+268	1	1	sunday bonnet
+269	1	1	sunday bought
+270	1	1	sunday bull
+271	1	1	sunday c
+272	1	1	sunday came
+273	1	1	sunday camping
+274	1	1	sunday car
+275	1	1	sunday card
+276	1	1	sunday care
+277	1	1	sunday chimes
+278	1	1	sunday church
+279	1	1	sunday closing
+280	1	1	sunday clothes
+281	1	1	sunday coaling
+282	1	1	sunday collections
+283	1	1	sunday commercial
+284	1	1	sunday corker
+285	1	1	sunday crowds
+286	1	1	sunday dad
+287	1	1	sunday despite
+288	1	1	sunday does
+289	1	1	sunday dr
+290	1	1	sunday draft
+291	1	1	sunday drafts
+292	1	1	sunday dry
+293	1	1	sunday easiness
+294	1	1	sunday echools
+295	1	1	sunday eeb
+296	1	1	sunday ei
+297	1	1	sunday em
+298	1	1	sunday entationi
+299	1	1	sunday entertainments
+300	1	1	sunday everybody
+301	1	1	sunday eveuing
+302	1	1	sunday excursions
+303	1	1	sunday f
+304	1	1	sunday fakir
+305	1	1	sunday feeling
+306	1	1	sunday fiai
+307	1	1	sunday gall
+308	1	1	sunday globe
+309	1	1	sunday had
+310	1	1	sunday happened
+311	1	1	sunday has
+312	1	1	sunday havey
+313	1	1	sunday hchoola
+314	1	1	sunday hcliool
+315	1	1	sunday heart
+316	1	1	sunday helmol
+317	1	1	sunday ho
+318	1	1	sunday home
+319	1	1	sunday ill
+320	1	1	sunday indicat
+321	1	1	sunday ing
+322	1	1	sunday ions
+323	1	1	sunday island
+324	1	1	sunday iter
+325	1	1	sunday j
+326	1	1	sunday john
+327	1	1	sunday joseph
+328	1	1	sunday krhool
+329	1	1	sunday lair
+330	1	1	sunday large
+331	1	1	sunday las
+332	1	1	sunday latt
+333	1	1	sunday leav
+334	1	1	sunday left
+335	1	1	sunday liar
+336	1	1	sunday list
+337	1	1	sunday livre
+338	1	1	sunday ls
+339	1	1	sunday lust
+340	1	1	sunday m
+341	1	1	sunday magazine
+342	1	1	sunday main
+343	1	1	sunday makes
+344	1	1	sunday meetings
+345	1	1	sunday men
+346	1	1	sunday messrs
+347	1	1	sunday mi
+348	1	1	sunday milk
+349	1	1	sunday miss
+350	1	1	sunday mn
+351	1	1	sunday moil
+352	1	1	sunday mom
+353	1	1	sunday monies
+354	1	1	sunday mornin
+355	1	1	sunday mornings
+356	1	1	sunday newspapers
+357	1	1	sunday nigh
+358	1	1	sunday nkiiit
+359	1	1	sunday nlghi
+360	1	1	sunday nlowbroughtupwretchmayroastbeefsetfire
+361	1	1	sunday nlvht
+362	1	1	sunday nmi
+363	1	1	sunday norning
+364	1	1	sunday nt
+365	1	1	sunday nui
+366	1	1	sunday nut
+367	1	1	sunday oaly
+368	1	1	sunday obaerr
+369	1	1	sunday obiervance
+370	1	1	sunday oct
+371	1	1	sunday oh
+372	1	1	sunday oi
+373	1	1	sunday ooat
+374	1	1	sunday open
+375	1	1	sunday or
+376	1	1	sunday orders
+377	1	1	sunday other
+378	1	1	sunday ouly
+379	1	1	sunday out
+380	1	1	sunday pap
+381	1	1	sunday perhaps
+382	1	1	sunday pocted
+383	1	1	sunday preaching
+384	1	1	sunday president
+385	1	1	sunday previous
+386	1	1	sunday previously
+387	1	1	sunday pu
+388	1	1	sunday punirait
+389	1	1	sunday quietude
+390	1	1	sunday r
+391	1	1	sunday rain
+392	1	1	sunday reached
+393	1	1	sunday read
+394	1	1	sunday received
+395	1	1	sunday recently
+396	1	1	sunday recortit
+397	1	1	sunday rest
+398	1	1	sunday returned
+399	1	1	sunday returning
+400	1	1	sunday rev
+401	1	1	sunday rooming
+402	1	1	sunday rr
+403	1	1	sunday scho
+404	1	1	sunday schoc
+405	1	1	sunday seem
+406	1	1	sunday selinol
+407	1	1	sunday sent
+408	1	1	sunday sftemoon
+409	1	1	sunday she
+410	1	1	sunday should
+411	1	1	sunday sir
+412	1	1	sunday slasher
+413	1	1	sunday smile
+414	1	1	sunday some
+415	1	1	sunday srwwi
+416	1	1	sunday street
+417	1	1	sunday su
+418	1	1	sunday tchovl
+419	1	1	sunday ternal
+420	1	1	sunday theatre
+421	1	1	sunday their
+422	1	1	sunday this
+423	1	1	sunday throughout
+424	1	1	sunday thunderstorms
+425	1	1	sunday timeahisown
+426	1	1	sunday tkain
+427	1	1	sunday took
+428	1	1	sunday tore
+429	1	1	sunday tr
+430	1	1	sunday transacted
+431	1	1	sunday trip
+432	1	1	sunday two
+433	1	1	sunday u
+434	1	1	sunday ucly
+435	1	1	sunday uighfipeb
+436	1	1	sunday uk
+437	1	1	sunday until
+438	1	1	sunday up
+439	1	1	sunday wa
+440	1	1	sunday warn
+441	1	1	sunday watching
+442	1	1	sunday wear
+443	1	1	sunday wero
+444	1	1	sunday whjch
+445	1	1	sunday wi
+446	1	1	sunday wife
+447	1	1	sunday wihmi
+448	1	1	sunday winter
+449	1	1	sunday withfriemls
+450	1	1	sunday without
+451	1	1	sunday wjp
+452	1	1	sunday work
+453	1	1	sunday world
+454	1	1	sunday would
+455	1	1	sunday write
+456	1	1	sunday writing
+457	1	1	sunday you
+458	1	1	sunday young
+459	1	1	sunday | a
+460	1	1	sunday | cattle
+461	1	1	sunday δ
+462	1	1	sunday# b
+463	1	1	sunday#) and
+464	1	1	sunday' from
+465	1	1	sunday)	1 our
+466	1	1	sunday)	cd
+467	1	1	sunday)	de
+468	1	1	sunday)	heavy
+469	1	1	sunday)	or
+470	1	1	sunday)	states
+471	1	1	sunday)	the
+472	1	1	sunday)	| wa
+473	1	1	sunday) 4.25 p
+474	1	1	sunday) evening
+475	1	1	sunday) ive
+476	1	1	sunday) ottawa
+477	1	1	sunday) tiains
+478	1	1	sunday) tnim
+479	1	1	sunday* "'but
+480	1	1	sunday* excel
+481	1	1	sunday* excepted
+482	1	1	sunday*) and
+483	1	1	sunday*. george
+484	1	1	sunday,	44	31.	| boat
+485	1	1	sunday,	ev
+486	1	1	sunday,	p
+487	1	1	sunday,	tween
+488	1	1	sunday,	you
+489	1	1	sunday, (18th
+490	1	1	sunday, (2nd
+491	1	1	sunday, 1 ho
+492	1	1	sunday, 10.30	44	17.	gentleman
+493	1	1	sunday, 10.30 i
+494	1	1	sunday, 10th
+495	1	1	sunday, 11th
+496	1	1	sunday, 12th
+497	1	1	sunday, 13th
+498	1	1	sunday, 18th
+499	1	1	sunday, 2"th
+500	1	1	sunday, 21st
+501	1	1	sunday, 23rd
+502	1	1	sunday, 24'h
+503	1	1	sunday, 29ih
+504	1	1	sunday, 2l
+505	1	1	sunday, 30th
+506	1	1	sunday, 31st
+507	1	1	sunday, 3id
+508	1	1	sunday, 45?ism
+509	1	1	sunday, 7th
+510	1	1	sunday, a
+511	1	1	sunday, accom
+512	1	1	sunday, advertu
+513	1	1	sunday, afire
+514	1	1	sunday, aged
+515	1	1	sunday, all
+516	1	1	sunday, also
+517	1	1	sunday, although
+518	1	1	sunday, ami
+519	1	1	sunday, andin
+520	1	1	sunday, apr
+521	1	1	sunday, asked
+522	1	1	sunday, august
+523	1	1	sunday, between
+524	1	1	sunday, bf
+525	1	1	sunday, by
+526	1	1	sunday, called
+527	1	1	sunday, came
+528	1	1	sunday, caution
+529	1	1	sunday, child
+530	1	1	sunday, cousin
+531	1	1	sunday, discovered
+532	1	1	sunday, duly
+533	1	1	sunday, especially
+534	1	1	sunday, et
+535	1	1	sunday, except
+536	1	1	sunday, fc
+537	1	1	sunday, febvuai
+538	1	1	sunday, for
+539	1	1	sunday, gramme
+540	1	1	sunday, h
+541	1	1	sunday, had
+542	1	1	sunday, he
+543	1	1	sunday, his
+544	1	1	sunday, hower
+545	1	1	sunday, however
+546	1	1	sunday, hull
+547	1	1	sunday, ia
+548	1	1	sunday, including
+549	1	1	sunday, jan
+550	1	1	sunday, kew
+551	1	1	sunday, l
+552	1	1	sunday, lays
+553	1	1	sunday, leslie
+554	1	1	sunday, ma
+555	1	1	sunday, men
+556	1	1	sunday, monday
+557	1	1	sunday, mr
+558	1	1	sunday, no
+559	1	1	sunday, noon
+560	1	1	sunday, nor
+561	1	1	sunday, north
+562	1	1	sunday, november
+563	1	1	sunday, nrriv
+564	1	1	sunday, o
+565	1	1	sunday, october
+566	1	1	sunday, on
+567	1	1	sunday, or
+568	1	1	sunday, picked
+569	1	1	sunday, portage
+570	1	1	sunday, proceeding
+571	1	1	sunday, quyon
+572	1	1	sunday, rev
+573	1	1	sunday, standing
+574	1	1	sunday, thank
+575	1	1	sunday, their
+576	1	1	sunday, they
+577	1	1	sunday, tho
+578	1	1	sunday, tod
+579	1	1	sunday, two
+580	1	1	sunday, went
+581	1	1	sunday, who
+582	1	1	sunday, z
+583	1	1	sunday," said
+584	1	1	sunday,\x
+585	1	1	sunday-aylmer
+586	1	1	sunday-schools
+587	1	1	sunday.	(equal
+588	1	1	sunday.	* m
+589	1	1	sunday.	*ty
+590	1	1	sunday.	. n
+591	1	1	sunday.	... ,	, mr
+592	1	1	sunday.	5	" ija
+593	1	1	sunday.	; -	- nob
+594	1	1	sunday.	; and
+595	1	1	sunday.	\ i
+596	1	1	sunday.	_	.	...	_ _ ceo
+597	1	1	sunday.	__ a
+598	1	1	sunday.	admit
+599	1	1	sunday.	box
+600	1	1	sunday.	bridge
+601	1	1	sunday.	calumet
+602	1	1	sunday.	dener
+603	1	1	sunday.	down
+604	1	1	sunday.	fectually
+605	1	1	sunday.	flanagan
+606	1	1	sunday.	frequently
+607	1	1	sunday.	it
+608	1	1	sunday.	j
+609	1	1	sunday.	las
+610	1	1	sunday.	lisb
+611	1	1	sunday.	montreal
+612	1	1	sunday.	mr
+613	1	1	sunday.	mrs
+614	1	1	sunday.	nurses
+615	1	1	sunday.	stopped
+616	1	1	sunday.	terested
+617	1	1	sunday.	the
+618	1	1	sunday.	tln
+619	1	1	sunday.	u
+620	1	1	sunday.  3v
+621	1	1	sunday.  beauty
+622	1	1	sunday. "si
+623	1	1	sunday. ' teams
+624	1	1	sunday. 'hwi
+625	1	1	sunday. ( a
+626	1	1	sunday. (<0x
+627	1	1	sunday. ,4 mr
+628	1	1	sunday. .	,	...	,	tho
+629	1	1	sunday. 1 here
+630	1	1	sunday. 1 told
+631	1	1	sunday. 1( is
+632	1	1	sunday. 10.00. a
+633	1	1	sunday. 10.30 a
+634	1	1	sunday. 10.30. a
+635	1	1	sunday. 11.00 a
+636	1	1	sunday. 1u
+637	1	1	sunday. 3 a
+638	1	1	sunday. 9 - , . < do
+639	1	1	sunday. :qm
+640	1	1	sunday. \vhen
+641	1	1	sunday. \xbbppr
+642	1	1	sunday. _	| night
+643	1	1	sunday. all
+644	1	1	sunday. altogether
+645	1	1	sunday. an
+646	1	1	sunday. april
+647	1	1	sunday. aylwln
+648	1	1	sunday. bank
+649	1	1	sunday. being
+650	1	1	sunday. bet
+651	1	1	sunday. bishop
+652	1	1	sunday. by
+653	1	1	sunday. c
+654	1	1	sunday. council
+655	1	1	sunday. dan
+656	1	1	sunday. daughters
+657	1	1	sunday. does
+658	1	1	sunday. doors
+659	1	1	sunday. draft
+660	1	1	sunday. drop
+661	1	1	sunday. ese
+662	1	1	sunday. ex
+663	1	1	sunday. frakefs
+664	1	1	sunday. fzgr
+665	1	1	sunday. general
+666	1	1	sunday. gentleman
+667	1	1	sunday. grasshoppers
+668	1	1	sunday. great
+669	1	1	sunday. hai
+670	1	1	sunday. hatchet
+671	1	1	sunday. havana
+672	1	1	sunday. henry
+673	1	1	sunday. how
+674	1	1	sunday. hubert
+675	1	1	sunday. iehed
+676	1	1	sunday. il
+677	1	1	sunday. in
+678	1	1	sunday. is
+679	1	1	sunday. j
+680	1	1	sunday. james
+681	1	1	sunday. jan
+682	1	1	sunday. jat
+683	1	1	sunday. jesus
+684	1	1	sunday. joe
+685	1	1	sunday. journa
+686	1	1	sunday. june
+687	1	1	sunday. just
+688	1	1	sunday. l
+689	1	1	sunday. large
+690	1	1	sunday. licensed
+691	1	1	sunday. life
+692	1	1	sunday. lobi
+693	1	1	sunday. lord
+694	1	1	sunday. loss
+695	1	1	sunday. march
+696	1	1	sunday. men
+697	1	1	sunday. mhomas
+698	1	1	sunday. mis
+699	1	1	sunday. mise
+700	1	1	sunday. misses
+701	1	1	sunday. murray
+702	1	1	sunday. nearly
+703	1	1	sunday. new
+704	1	1	sunday. november
+705	1	1	sunday. now
+706	1	1	sunday. of
+707	1	1	sunday. others
+708	1	1	sunday. over
+709	1	1	sunday. rev
+710	1	1	sunday. s
+711	1	1	sunday. satisfactory
+712	1	1	sunday. seal
+713	1	1	sunday. set
+714	1	1	sunday. several
+715	1	1	sunday. some
+716	1	1	sunday. stranger
+717	1	1	sunday. subecription
+718	1	1	sunday. tbanks
+719	1	1	sunday. ten
+720	1	1	sunday. then
+721	1	1	sunday. there
+722	1	1	sunday. they
+723	1	1	sunday. thu
+724	1	1	sunday. two
+725	1	1	sunday. ver
+726	1	1	sunday. we
+727	1	1	sunday. when
+728	1	1	sunday. where
+729	1	1	sunday. woik
+730	1	1	sunday. word
+731	1	1	sunday.)\x
+732	1	1	sunday.**   centimes
+733	1	1	sunday.\x
+734	1	1	sunday8 aml
+735	1	1	sunday; some
+736	1	1	sunday; us
+737	1	1	sunday;^m
+738	1	1	sunday\ ***""	\xfbrooke
+739	1	1	sunday}-si
