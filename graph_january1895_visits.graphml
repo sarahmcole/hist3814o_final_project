@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="Edge Id" attr.type="string" for="edge" id="edgeid"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<key attr.name="PageRank" attr.type="double" for="node" id="pageranks"/>
+<key attr.name="Modularity Class" attr.type="int" for="node" id="modularity_class"/>
+<graph edgedefault="directed">
+<node id="Mrs. R. Cuthbertson">
+<data key="label">Mrs. R. Cuthbertson</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">0</data>
+<data key="size">10.0</data>
+<data key="r">251</data>
+<data key="g">41</data>
+<data key="b">51</data>
+<data key="x">-1060.2222</data>
+<data key="y">-265.27188</data>
+</node>
+<node id="Mrs. C. Stewart">
+<data key="label">Mrs. C. Stewart</data>
+<data key="pageranks">0.02630858133525486</data>
+<data key="modularity_class">0</data>
+<data key="size">12.5981865</data>
+<data key="r">251</data>
+<data key="g">41</data>
+<data key="b">51</data>
+<data key="x">-1031.6506</data>
+<data key="y">-237.35193</data>
+</node>
+<node id="Mr. R. Cuthbertson">
+<data key="label">Mr. R. Cuthbertson</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">0</data>
+<data key="size">10.0</data>
+<data key="r">251</data>
+<data key="g">41</data>
+<data key="b">51</data>
+<data key="x">-1003.99713</data>
+<data key="y">-208.5594</data>
+</node>
+<node id="Miss Holton">
+<data key="label">Miss Holton</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">1</data>
+<data key="size">10.0</data>
+<data key="r">247</data>
+<data key="g">50</data>
+<data key="b">48</data>
+<data key="x">-496.24646</data>
+<data key="y">-149.14896</data>
+</node>
+<node id="Miss McAllister">
+<data key="label">Miss McAllister</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">1</data>
+<data key="size">11.299093</data>
+<data key="r">247</data>
+<data key="g">50</data>
+<data key="b">48</data>
+<data key="x">-486.81174</data>
+<data key="y">-189.28525</data>
+</node>
+<node id="Mr. John R. Young">
+<data key="label">Mr. John R. Young</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">2</data>
+<data key="size">10.0</data>
+<data key="r">243</data>
+<data key="g">60</data>
+<data key="b">46</data>
+<data key="x">-22.479427</data>
+<data key="y">671.4511</data>
+</node>
+<node id="Miss J. McPherson">
+<data key="label">Miss J. McPherson</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">3</data>
+<data key="size">10.0</data>
+<data key="r">239</data>
+<data key="g">70</data>
+<data key="b">43</data>
+<data key="x">471.21945</data>
+<data key="y">1131.6643</data>
+</node>
+<node id="Andrew Grant">
+<data key="label">Andrew Grant</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">3</data>
+<data key="size">11.299093</data>
+<data key="r">239</data>
+<data key="g">70</data>
+<data key="b">43</data>
+<data key="x">473.5537</data>
+<data key="y">1090.5</data>
+</node>
+<node id="Mr. Alex Bell">
+<data key="label">Mr. Alex Bell</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">4</data>
+<data key="size">10.0</data>
+<data key="r">235</data>
+<data key="g">80</data>
+<data key="b">41</data>
+<data key="x">12.285184</data>
+<data key="y">437.31003</data>
+</node>
+<node id="Mrs. Alex Bell">
+<data key="label">Mrs. Alex Bell</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">5</data>
+<data key="size">10.0</data>
+<data key="r">231</data>
+<data key="g">90</data>
+<data key="b">38</data>
+<data key="x">-1169.7551</data>
+<data key="y">252.25851</data>
+</node>
+<node id="Visitor">
+<data key="label">Visitor</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">6</data>
+<data key="size">10.0</data>
+<data key="r">227</data>
+<data key="g">100</data>
+<data key="b">36</data>
+<data key="x">-223.66559</data>
+<data key="y">446.3188</data>
+</node>
+<node id="M. Kane">
+<data key="label">M. Kane</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">6</data>
+<data key="size">11.299093</data>
+<data key="r">227</data>
+<data key="g">100</data>
+<data key="b">36</data>
+<data key="x">-255.0908</data>
+<data key="y">473.07217</data>
+</node>
+<node id="P. Kane">
+<data key="label">P. Kane</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">7</data>
+<data key="size">10.0</data>
+<data key="r">223</data>
+<data key="g">110</data>
+<data key="b">33</data>
+<data key="x">134.82756</data>
+<data key="y">1139.1875</data>
+</node>
+<node id="F. Hearty">
+<data key="label">F. Hearty</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">8</data>
+<data key="size">10.0</data>
+<data key="r">219</data>
+<data key="g">120</data>
+<data key="b">31</data>
+<data key="x">-365.61374</data>
+<data key="y">754.21014</data>
+</node>
+<node id="Maggie Martin">
+<data key="label">Maggie Martin</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">9</data>
+<data key="size">10.0</data>
+<data key="r">215</data>
+<data key="g">130</data>
+<data key="b">29</data>
+<data key="x">79.53141</data>
+<data key="y">11.935476</data>
+</node>
+<node id="Mrs. J. Bradley">
+<data key="label">Mrs. J. Bradley</data>
+<data key="pageranks">0.022166780162193093</data>
+<data key="modularity_class">9</data>
+<data key="size">11.94864</data>
+<data key="r">215</data>
+<data key="g">130</data>
+<data key="b">29</data>
+<data key="x">41.320545</data>
+<data key="y">21.640896</data>
+</node>
+<node id="Lyla McLean">
+<data key="label">Lyla McLean</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">10</data>
+<data key="size">10.0</data>
+<data key="r">211</data>
+<data key="g">140</data>
+<data key="b">26</data>
+<data key="x">774.6871</data>
+<data key="y">344.50775</data>
+</node>
+<node id="Lorena Hodgins">
+<data key="label">Lorena Hodgins</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">10</data>
+<data key="size">11.299093</data>
+<data key="r">211</data>
+<data key="g">140</data>
+<data key="b">26</data>
+<data key="x">814.08215</data>
+<data key="y">332.19785</data>
+</node>
+<node id="Miss Carey">
+<data key="label">Miss Carey</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">11</data>
+<data key="size">10.0</data>
+<data key="r">208</data>
+<data key="g">150</data>
+<data key="b">24</data>
+<data key="x">-154.67058</data>
+<data key="y">978.78186</data>
+</node>
+<node id="Mr. Robert Smart">
+<data key="label">Mr. Robert Smart</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">11</data>
+<data key="size">11.299093</data>
+<data key="r">208</data>
+<data key="g">150</data>
+<data key="b">24</data>
+<data key="x">-162.74924</data>
+<data key="y">1019.25903</data>
+</node>
+<node id="Miss C. Dunkerley">
+<data key="label">Miss C. Dunkerley</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">12</data>
+<data key="size">10.0</data>
+<data key="r">204</data>
+<data key="g">160</data>
+<data key="b">21</data>
+<data key="x">-598.63837</data>
+<data key="y">620.4373</data>
+</node>
+<node id="Mr. A. Grimes">
+<data key="label">Mr. A. Grimes</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">13</data>
+<data key="size">10.0</data>
+<data key="r">200</data>
+<data key="g">170</data>
+<data key="b">19</data>
+<data key="x">259.42947</data>
+<data key="y">446.54794</data>
+</node>
+<node id="Mr. B. Smart">
+<data key="label">Mr. B. Smart</data>
+<data key="pageranks">0.02630858133525486</data>
+<data key="modularity_class">13</data>
+<data key="size">12.5981865</data>
+<data key="r">200</data>
+<data key="g">170</data>
+<data key="b">19</data>
+<data key="x">295.06406</data>
+<data key="y">464.75296</data>
+</node>
+<node id="Mrs. A. Grimes">
+<data key="label">Mrs. A. Grimes</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">13</data>
+<data key="size">10.0</data>
+<data key="r">200</data>
+<data key="g">170</data>
+<data key="b">19</data>
+<data key="x">330.54053</data>
+<data key="y">483.25732</data>
+</node>
+<node id="Miss Amelia Smart">
+<data key="label">Miss Amelia Smart</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">14</data>
+<data key="size">10.0</data>
+<data key="r">196</data>
+<data key="g">180</data>
+<data key="b">16</data>
+<data key="x">-703.3751</data>
+<data key="y">973.8257</data>
+</node>
+<node id="Mrs. Wm. Lochart">
+<data key="label">Mrs. Wm. Lochart</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">15</data>
+<data key="size">10.0</data>
+<data key="r">192</data>
+<data key="g">190</data>
+<data key="b">14</data>
+<data key="x">-879.23706</data>
+<data key="y">-600.62134</data>
+</node>
+<node id="F. S. Roy">
+<data key="label">F. S. Roy</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">16</data>
+<data key="size">10.0</data>
+<data key="r">188</data>
+<data key="g">200</data>
+<data key="b">11</data>
+<data key="x">-901.85834</data>
+<data key="y">639.0361</data>
+</node>
+<node id="Miss A. Lochart">
+<data key="label">Miss A. Lochart</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">17</data>
+<data key="size">10.0</data>
+<data key="r">184</data>
+<data key="g">210</data>
+<data key="b">9</data>
+<data key="x">-894.85236</data>
+<data key="y">392.41537</data>
+</node>
+<node id="Miss B. Lochart">
+<data key="label">Miss B. Lochart</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">18</data>
+<data key="size">10.0</data>
+<data key="r">180</data>
+<data key="g">220</data>
+<data key="b">7</data>
+<data key="x">754.85406</data>
+<data key="y">843.6256</data>
+</node>
+<node id="Miss Annie Murray">
+<data key="label">Miss Annie Murray</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">9</data>
+<data key="size">10.0</data>
+<data key="r">215</data>
+<data key="g">130</data>
+<data key="b">29</data>
+<data key="x">-45.281036</data>
+<data key="y">25.712055</data>
+</node>
+<node id="Mr. Andrew Grant">
+<data key="label">Mr. Andrew Grant</data>
+<data key="pageranks">0.07350586827560614</data>
+<data key="modularity_class">9</data>
+<data key="size">20.0</data>
+<data key="r">215</data>
+<data key="g">130</data>
+<data key="b">29</data>
+<data key="x">-5.0734515</data>
+<data key="y">-2.9717274</data>
+</node>
+<node id="Miss Agnes Murray">
+<data key="label">Miss Agnes Murray</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">9</data>
+<data key="size">10.0</data>
+<data key="r">215</data>
+<data key="g">130</data>
+<data key="b">29</data>
+<data key="x">-14.642176</data>
+<data key="y">-54.177853</data>
+</node>
+<node id="Mr. Letts">
+<data key="label">Mr. Letts</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">9</data>
+<data key="size">10.0</data>
+<data key="r">215</data>
+<data key="g">130</data>
+<data key="b">29</data>
+<data key="x">36.21442</data>
+<data key="y">-42.971428</data>
+</node>
+<node id="Mr. Larivee">
+<data key="label">Mr. Larivee</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">9</data>
+<data key="size">10.0</data>
+<data key="r">215</data>
+<data key="g">130</data>
+<data key="b">29</data>
+<data key="x">-57.4707</data>
+<data key="y">-20.055012</data>
+</node>
+<node id="Mr. Syvanus Richards">
+<data key="label">Mr. Syvanus Richards</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">19</data>
+<data key="size">10.0</data>
+<data key="r">176</data>
+<data key="g">230</data>
+<data key="b">4</data>
+<data key="x">-874.11084</data>
+<data key="y">164.7391</data>
+</node>
+<node id="Miss Grace McKechnie">
+<data key="label">Miss Grace McKechnie</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">26</data>
+<data key="size">10.0</data>
+<data key="r">126</data>
+<data key="g">245</data>
+<data key="b">63</data>
+<data key="x">-112.12227</data>
+<data key="y">-316.38672</data>
+</node>
+<node id="Mr. Alex Stewart">
+<data key="label">Mr. Alex Stewart</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">20</data>
+<data key="size">10.0</data>
+<data key="r">172</data>
+<data key="g">240</data>
+<data key="b">2</data>
+<data key="x">789.461</data>
+<data key="y">671.6662</data>
+</node>
+<node id="Mr. W. Finaln">
+<data key="label">Mr. W. Finaln</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">21</data>
+<data key="size">10.0</data>
+<data key="r">166</data>
+<data key="g">245</data>
+<data key="b">6</data>
+<data key="x">-747.8976</data>
+<data key="y">773.893</data>
+</node>
+<node id="Miss Mary Finlan">
+<data key="label">Miss Mary Finlan</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">22</data>
+<data key="size">10.0</data>
+<data key="r">158</data>
+<data key="g">245</data>
+<data key="b">17</data>
+<data key="x">1036.7452</data>
+<data key="y">628.6722</data>
+</node>
+<node id="Miss Finlan">
+<data key="label">Miss Finlan</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">23</data>
+<data key="size">10.0</data>
+<data key="r">150</data>
+<data key="g">245</data>
+<data key="b">29</data>
+<data key="x">145.54811</data>
+<data key="y">816.94525</data>
+</node>
+<node id="Miss Jenny May Richards">
+<data key="label">Miss Jenny May Richards</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">24</data>
+<data key="size">10.0</data>
+<data key="r">142</data>
+<data key="g">245</data>
+<data key="b">40</data>
+<data key="x">-1099.5837</data>
+<data key="y">563.8918</data>
+</node>
+<node id="Mrs. Ale McDonald">
+<data key="label">Mrs. Ale McDonald</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">25</data>
+<data key="size">10.0</data>
+<data key="r">134</data>
+<data key="g">245</data>
+<data key="b">51</data>
+<data key="x">331.76123</data>
+<data key="y">-369.30023</data>
+</node>
+<node id="Mr. R. Campbell">
+<data key="label">Mr. R. Campbell</data>
+<data key="pageranks">0.02630858133525486</data>
+<data key="modularity_class">25</data>
+<data key="size">12.5981865</data>
+<data key="r">134</data>
+<data key="g">245</data>
+<data key="b">51</data>
+<data key="x">352.7848</data>
+<data key="y">-335.26907</data>
+</node>
+<node id="Miss Mabel McDonald">
+<data key="label">Miss Mabel McDonald</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">25</data>
+<data key="size">10.0</data>
+<data key="r">134</data>
+<data key="g">245</data>
+<data key="b">51</data>
+<data key="x">373.1142</data>
+<data key="y">-300.80176</data>
+</node>
+<node id="Mr. James Armstrong">
+<data key="label">Mr. James Armstrong</data>
+<data key="pageranks">0.02630858133525486</data>
+<data key="modularity_class">26</data>
+<data key="size">12.5981865</data>
+<data key="r">126</data>
+<data key="g">245</data>
+<data key="b">63</data>
+<data key="x">-72.541855</data>
+<data key="y">-322.29126</data>
+</node>
+<node id="Miss MacIntosh">
+<data key="label">Miss MacIntosh</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">26</data>
+<data key="size">10.0</data>
+<data key="r">126</data>
+<data key="g">245</data>
+<data key="b">63</data>
+<data key="x">-33.214417</data>
+<data key="y">-329.73245</data>
+</node>
+<node id="Miss Annie Grant">
+<data key="label">Miss Annie Grant</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">9</data>
+<data key="size">10.0</data>
+<data key="r">215</data>
+<data key="g">130</data>
+<data key="b">29</data>
+<data key="x">28.513603</data>
+<data key="y">57.840847</data>
+</node>
+<node id="Mr. Wellington Bradley">
+<data key="label">Mr. Wellington Bradley</data>
+<data key="pageranks">0.01388317781606956</data>
+<data key="modularity_class">9</data>
+<data key="size">10.649547</data>
+<data key="r">215</data>
+<data key="g">130</data>
+<data key="b">29</data>
+<data key="x">-10.692662</data>
+<data key="y">44.76105</data>
+</node>
+<node id="Miss Annie Jones">
+<data key="label">Miss Annie Jones</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">27</data>
+<data key="size">10.0</data>
+<data key="r">118</data>
+<data key="g">245</data>
+<data key="b">74</data>
+<data key="x">422.6921</data>
+<data key="y">102.23794</data>
+</node>
+<node id="Mrs. G. Richardson">
+<data key="label">Mrs. G. Richardson</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">27</data>
+<data key="size">11.299093</data>
+<data key="r">118</data>
+<data key="g">245</data>
+<data key="b">74</data>
+<data key="x">382.76852</data>
+<data key="y">92.056915</data>
+</node>
+<node id="Miss Fanny Hill">
+<data key="label">Miss Fanny Hill</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">28</data>
+<data key="size">10.0</data>
+<data key="r">110</data>
+<data key="g">245</data>
+<data key="b">85</data>
+<data key="x">-751.93164</data>
+<data key="y">-955.1563</data>
+</node>
+<node id="Mr. Hill">
+<data key="label">Mr. Hill</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">28</data>
+<data key="size">11.299093</data>
+<data key="r">110</data>
+<data key="g">245</data>
+<data key="b">85</data>
+<data key="x">-771.7417</data>
+<data key="y">-991.3642</data>
+</node>
+<node id="Captain Mulligan">
+<data key="label">Captain Mulligan</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">29</data>
+<data key="size">10.0</data>
+<data key="r">102</data>
+<data key="g">245</data>
+<data key="b">97</data>
+<data key="x">232.14769</data>
+<data key="y">-1017.6818</data>
+</node>
+<node id="relatives">
+<data key="label">relatives</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">30</data>
+<data key="size">10.0</data>
+<data key="r">94</data>
+<data key="g">245</data>
+<data key="b">108</data>
+<data key="x">124.67871</data>
+<data key="y">-916.1336</data>
+</node>
+<node id="Mrs. Mulligan">
+<data key="label">Mrs. Mulligan</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">31</data>
+<data key="size">10.0</data>
+<data key="r">86</data>
+<data key="g">246</data>
+<data key="b">119</data>
+<data key="x">191.2843</data>
+<data key="y">-693.8741</data>
+</node>
+<node id="Dr. A. Groves">
+<data key="label">Dr. A. Groves</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">32</data>
+<data key="size">10.0</data>
+<data key="r">78</data>
+<data key="g">246</data>
+<data key="b">131</data>
+<data key="x">-307.15213</data>
+<data key="y">128.80396</data>
+</node>
+<node id="Dr. B. Groves">
+<data key="label">Dr. B. Groves</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">32</data>
+<data key="size">11.299093</data>
+<data key="r">78</data>
+<data key="g">246</data>
+<data key="b">131</data>
+<data key="x">-333.6691</data>
+<data key="y">97.23191</data>
+</node>
+<node id="Miss M. Brownlee">
+<data key="label">Miss M. Brownlee</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">33</data>
+<data key="size">10.0</data>
+<data key="r">70</data>
+<data key="g">246</data>
+<data key="b">142</data>
+<data key="x">-531.8739</data>
+<data key="y">1086.6191</data>
+</node>
+<node id="Miss A. Brownlee">
+<data key="label">Miss A. Brownlee</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">34</data>
+<data key="size">10.0</data>
+<data key="r">62</data>
+<data key="g">246</data>
+<data key="b">153</data>
+<data key="x">-58.40644</data>
+<data key="y">313.1959</data>
+</node>
+<node id="Miss D. Hamilton">
+<data key="label">Miss D. Hamilton</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">35</data>
+<data key="size">10.0</data>
+<data key="r">54</data>
+<data key="g">246</data>
+<data key="b">165</data>
+<data key="x">905.40204</data>
+<data key="y">-531.1112</data>
+</node>
+<node id="Miss Lizzie Richardson">
+<data key="label">Miss Lizzie Richardson</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">35</data>
+<data key="size">11.299093</data>
+<data key="r">54</data>
+<data key="g">246</data>
+<data key="b">165</data>
+<data key="x">946.4506</data>
+<data key="y">-526.80286</data>
+</node>
+<node id="Miss Mulligan">
+<data key="label">Miss Mulligan</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">36</data>
+<data key="size">10.0</data>
+<data key="r">46</data>
+<data key="g">246</data>
+<data key="b">176</data>
+<data key="x">-235.25226</data>
+<data key="y">-755.09576</data>
+</node>
+<node id="Mr. Daniel Smith">
+<data key="label">Mr. Daniel Smith</data>
+<data key="pageranks">0.0345921836813784</data>
+<data key="modularity_class">36</data>
+<data key="size">13.89728</data>
+<data key="r">46</data>
+<data key="g">246</data>
+<data key="b">176</data>
+<data key="x">-273.77264</data>
+<data key="y">-750.0151</data>
+</node>
+<node id="Miss K. McLean">
+<data key="label">Miss K. McLean</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">36</data>
+<data key="size">10.0</data>
+<data key="r">46</data>
+<data key="g">246</data>
+<data key="b">176</data>
+<data key="x">-289.21225</data>
+<data key="y">-714.1547</data>
+</node>
+<node id="Mr. W. E. Rowan">
+<data key="label">Mr. W. E. Rowan</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">36</data>
+<data key="size">10.0</data>
+<data key="r">46</data>
+<data key="g">246</data>
+<data key="b">176</data>
+<data key="x">-297.6958</data>
+<data key="y">-780.981</data>
+</node>
+<node id="Miss E. L. McJanet">
+<data key="label">Miss E. L. McJanet</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">37</data>
+<data key="size">10.0</data>
+<data key="r">38</data>
+<data key="g">246</data>
+<data key="b">187</data>
+<data key="x">835.8093</data>
+<data key="y">-845.1626</data>
+</node>
+<node id="Mrs. H. Argue">
+<data key="label">Mrs. H. Argue</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">38</data>
+<data key="size">10.0</data>
+<data key="r">30</data>
+<data key="g">246</data>
+<data key="b">199</data>
+<data key="x">525.6987</data>
+<data key="y">-977.0762</data>
+</node>
+<node id="Mrs. Rev. Wm. Knox">
+<data key="label">Mrs. Rev. Wm. Knox</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">38</data>
+<data key="size">11.299093</data>
+<data key="r">30</data>
+<data key="g">246</data>
+<data key="b">199</data>
+<data key="x">527.90356</data>
+<data key="y">-1018.2942</data>
+</node>
+<node id="Mrs. Wm. Eades">
+<data key="label">Mrs. Wm. Eades</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">39</data>
+<data key="size">10.0</data>
+<data key="r">22</data>
+<data key="g">246</data>
+<data key="b">210</data>
+<data key="x">726.99115</data>
+<data key="y">-113.13328</data>
+</node>
+<node id="Mrs. Wm. Steele">
+<data key="label">Mrs. Wm. Steele</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">39</data>
+<data key="size">11.299093</data>
+<data key="r">22</data>
+<data key="g">246</data>
+<data key="b">210</data>
+<data key="x">695.17285</data>
+<data key="y">-86.848434</data>
+</node>
+<node id="Miss Mary J. Bell">
+<data key="label">Miss Mary J. Bell</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">40</data>
+<data key="size">10.0</data>
+<data key="r">14</data>
+<data key="g">246</data>
+<data key="b">221</data>
+<data key="x">1204.7268</data>
+<data key="y">53.716312</data>
+</node>
+<node id="Miss Bessie Rutledge">
+<data key="label">Miss Bessie Rutledge</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">40</data>
+<data key="size">11.299093</data>
+<data key="r">14</data>
+<data key="g">246</data>
+<data key="b">221</data>
+<data key="x">1198.443</data>
+<data key="y">12.925106</data>
+</node>
+<node id="Mrs. Geo. McDermott">
+<data key="label">Mrs. Geo. McDermott</data>
+<data key="pageranks">0.009741376643007792</data>
+<data key="modularity_class">41</data>
+<data key="size">10.0</data>
+<data key="r">6</data>
+<data key="g">247</data>
+<data key="b">233</data>
+<data key="x">-610.64264</data>
+<data key="y">262.86984</data>
+</node>
+<node id="Mrs. Jas. C. Williams">
+<data key="label">Mrs. Jas. C. Williams</data>
+<data key="pageranks">0.018024978989131326</data>
+<data key="modularity_class">41</data>
+<data key="size">11.299093</data>
+<data key="r">6</data>
+<data key="g">247</data>
+<data key="b">233</data>
+<data key="x">-591.3293</data>
+<data key="y">299.34357</data>
+</node>
+<edge source="Mrs. R. Cuthbertson" target="Mrs. C. Stewart">
+<data key="edgeid">0</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. R. Cuthbertson" target="Mrs. C. Stewart">
+<data key="edgeid">1</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Holton" target="Miss McAllister">
+<data key="edgeid">2</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss J. McPherson" target="Andrew Grant">
+<data key="edgeid">4</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Visitor" target="M. Kane">
+<data key="edgeid">7</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Maggie Martin" target="Mrs. J. Bradley">
+<data key="edgeid">10</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Lyla McLean" target="Lorena Hodgins">
+<data key="edgeid">11</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Carey" target="Mr. Robert Smart">
+<data key="edgeid">12</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. A. Grimes" target="Mr. B. Smart">
+<data key="edgeid">14</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. A. Grimes" target="Mr. B. Smart">
+<data key="edgeid">15</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Annie Murray" target="Mr. Andrew Grant">
+<data key="edgeid">21</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Agnes Murray" target="Mr. Andrew Grant">
+<data key="edgeid">22</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Letts" target="Mr. Andrew Grant">
+<data key="edgeid">23</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Larivee" target="Mr. Andrew Grant">
+<data key="edgeid">24</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Ale McDonald" target="Mr. R. Campbell">
+<data key="edgeid">36</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mabel McDonald" target="Mr. R. Campbell">
+<data key="edgeid">37</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Grace McKechnie" target="Mr. James Armstrong">
+<data key="edgeid">38</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss MacIntosh" target="Mr. James Armstrong">
+<data key="edgeid">39</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Annie Grant" target="Mrs. J. Bradley">
+<data key="edgeid">40</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Annie Grant" target="Mr. Wellington Bradley">
+<data key="edgeid">41</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. J. Bradley" target="Mr. Andrew Grant">
+<data key="edgeid">42</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Wellington Bradley" target="Mr. Andrew Grant">
+<data key="edgeid">43</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Annie Jones" target="Mrs. G. Richardson">
+<data key="edgeid">44</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Fanny Hill" target="Mr. Hill">
+<data key="edgeid">45</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Dr. A. Groves" target="Dr. B. Groves">
+<data key="edgeid">48</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss D. Hamilton" target="Miss Lizzie Richardson">
+<data key="edgeid">52</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mulligan" target="Mr. Daniel Smith">
+<data key="edgeid">54</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss K. McLean" target="Mr. Daniel Smith">
+<data key="edgeid">55</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. W. E. Rowan" target="Mr. Daniel Smith">
+<data key="edgeid">56</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. H. Argue" target="Mrs. Rev. Wm. Knox">
+<data key="edgeid">58</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Wm. Eades" target="Mrs. Wm. Steele">
+<data key="edgeid">59</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mary J. Bell" target="Miss Bessie Rutledge">
+<data key="edgeid">60</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Geo. McDermott" target="Mrs. Jas. C. Williams">
+<data key="edgeid">61</data>
+<data key="weight">1.0</data>
+</edge>
+</graph>
+</graphml>
