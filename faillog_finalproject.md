@@ -1,5 +1,5 @@
 # Fail log: _Shawville Equity_ project
-## July 29 2017
+## last updated August 12 2017
  
 ## WEEK 3 (JULY 24-JULY 30)
 + still unable to access dhbox, I downloaded 83471\_1890-01-02.txt (Equity issue for the 2nd of January 1890) and played around with regex cleaning in regexr and Notepad++.
@@ -145,3 +145,90 @@
 + visualize trends within models that contain words related to social events & bonds
 + compare 1895 to rest of period from 1890-1990
  + note compare > contrast: the data from the wider period can help show trends, contextualize 1895.
+ 
+ ## WEEK 5 (AUG 7 - AUG 13)
+ ### Cleaning & completing CSV
++ in notepad++, ran replace to correct some OCR errors:
+ + `/bhie/b` -> "his"
+ + `/bthie/b -> "the," "this"
+ + using word prediction list in Notepad++, replaced various misspellings of "Shawville"
++ compared .pdf to my csv
+ + as I expected, the OCR missed quite a few lines it should have caught.
+ + transcribed articles describing each event into csv, without commas to preserve format.
++ sorted events into categories based on sxn of Equity it appears in.
++ fuck: should I have searched for "last week," "next week," "this week"? shiiit.
++ I clean all of January in this way - it takes hours. Will this be useful? I save this new transcribed version as project_dates_transcribed.csv.
+ + I cleaned it more carefully, checking against the pdfs a second time, including all visits and events, even if a day of the week is not mentioned in the article. I record these events, and any events that don't have a clear date stated (eg. "last week," "holidays," "a few days") as "n/a." I also sort into types of social event: birth, death, event, visit (someone comes to Pontiac), departure (someone leaves Pontiac), church.
+   + saved as "equity_transcript_january_final.csv.
+
+### TOPIC MODELLING JANUARY 1895 SOCIAL EVENTS
++ imported equity_transcript_january_final.csv using RStudio's "Import Dataset" function
++ got my data into a mallet-friendly instance list using this tutorial: http://rci.rutgers.edu/~ag978/litdata/hw10/
++ imported into RStudio project january1895_topicmodel.Rproj and followed [Shawn Graham's Topic Modelling in R exercise](http://workbook.craftingdigitalhistory.ca/supporting%20materials/topicmodel-r-yourmachine/) to create files:
+  +topic frequency across _Equity_ issues: january_1895_topics_docs.csv
+  +topic label table: january1895_topiclabels.csv
+  +word frequency table: january1895_wordfreqs
+  +bar graph showing types of social occasions mentioned by each January 1895 Equity issue: occasionsbyissue_barplot_january1895.png
+  +social occasions by approximate day they took place barplot: socialoccasionsday_barplot_january1895.png
+  +type of social occasion by frequency: Types_barplot_january1895.png
+  +wordclouds related to topics: wordcloud_public_january1895.png, wordplot_church_january1895.png, wordplot_diptheria_january1895.png, wordplot_evening_january1895.png, wordplot_meeting_january1895.png, wordplot_miss_january1895.png, wordplot_monday_january1895.png, wordplot_mrs_january1895.png, wordplot_ottawa_january1895.png.
+  + uploaded these files and .Rproj file into github/hist3814o_finalproject/.
+
+### TOPIC MODELLING 1895 SOCIAL EVENTS
++ imported projects_dates_cleaned.csv using RStudio's "import dataset" function.
++ fail: only about 388 of my 800+ rows of data show up. They also don't show up in excel; a chunk of dates went missing between March and June and possibly other sections. However, all 800+ lines are still there in notepad++, so I open the document in OpenRefine to check it out.
++ WELL... I FOUND [THE PROBLEM](/hist3814o_finalproject/image_csv_problem.png)
++ AHA! it was `""` stray quotation marks that were causing multiple lines to be read as one cell. I ran a replace in Notepad++ to get rid of all the quotation marks, and all 847 rows uploaded to OpenRefine fine.
++ saved as 1895_socialevents_cleaned.csv
++ imported into RStudio as 1895events_topicmodel.Rproj. Followed [Shawn Graham's topic modelling tutorial](http://workbook.craftingdigitalhistory.ca/supporting%20materials/topicmodel-r-yourmachine/) to create files:
+   + graph showing distribution of social events by Equity issue: 1895_eventsbyissue_bargraph
+   + topic frequency across issues: 1895_events_topicdocs.csv	
+   + word frequency table: 1895_events_wordfreqs.csv	
+   + topic labels table: 1895_events_topicslabels.csv
+   + wordclouds based on topic model: wordcloud_1895events_church.png, wordcloud_1895events_day.png, wordcloud_1895events_days.png, wordcloud_1895events_present.png, wordcloud_1895events_sunday.png, wordcloud_1895events_thursday.png, wordcloud_1895events_widow.png, wordgraph_1895events_meeting.png.
+   + uploaded these files and .Rproj file to github/hist3814o_finalproject/.
+   
+### NER
++ using [Stanford NER 3.8.0](https://nlp.stanford.edu/software/CRF-NER.shtml), I tagged equity_transcript_january_final.csv and 1895_events_cleaned.csv based on 3 values: <LOCATION>, <PERSON>, and <ORGANIZATION>
+  + I save the results as equity_transcript_january_tagged.csv and 1895_events_tagged.csv.
++ following [Shawn Graham's regex + NER turotial](http://workbook.craftingdigitalhistory.ca/supporting%20materials/regex-ner/), I created a list of:
+  + all locations mentioned in January 1895 in relation to social events: january1895_locations.csv -> see section "Locations in Palladio"
++ followed Dr. Graham's instructions using regex in Cygwin to find all <PERSON> tags... and fucked up completely.
+  + saved results as failedregex.txt. Yay for backups.
+  
+### LOCATIONS IN PALLADIO
++ using Google Maps, I made a .csv with the locations mentioned in January 1895 related to social events and their coordinates on the map.
+  + Initially I tried doing this automatically using [OpenRefine's named entity recognition](https://github.com/RubenVerborgh/Refine-NER-Extension), but it failed to recognize a lot of the smaller communities in Pontiac and misidentified communties that shared names with more famous communities (eg Bristol returned Bristol, England).
++ next steps: import this data into [Palladio](palladio.designhumanities.org) for visualization on a map.
+  
+### NETWORKS IN GEPHI
++ I want to represent place & people relationships through a network. I want to eventually create a binodal network, showing how people relate to each other and how they relate to places in Pontiac county.
+  + I start small, with the January transcriptions. If I have time I will continue up to 1895, and maybe (if I'm feeling wild), 1890-1900.
++ I open my equity_transcript_january_tagged.csv in excel and use some conditional formatting to help me find all cells with a <PERSON> tag. Then I manually create a source/target list of people who have made visits. If the target of a visit isn't clear, I put "friends" as a filler. If the person is returning home, I put "home". I will probably have to edit these out later, but it's easier to include them for completeness' sake right now.
+  + Why am I not using a digital tool to create this list automatically? I'm tired and I wanted to do some mindless data crunching. Now onto Gephi, which is... not mindless.
++ I followed the [tutorial]() in the HIST3814O workbook to create a network showing the visits between people in January 1895 in Shawville. I run Modularity, which returns communities within the network, and color the network based on those communities.
+  + saved my graph as graph_january1895_visits.pdf. Uploaded to github/hist3814o_finalproject/.
++ next steps: complete my network analysis next week, as a binodal network seems promising.
+  
+### TOPIC MODELLING 1890-1900 FULL TEXT
++ transformed my corpus into a .csv with the following format: `equity issue, text of issue in a single line`
+  + I accomplished this through [experimentation, googling, and stackExchange](https://github.com/sarahmcole/hist3814o_final_project/blob/master/1890-1900complete_commands.md).
+  + saved the resulting table as 1890-1900_complete_table.csv.
+     + As with my 1895 CSV, I had to delete all `"` from my text in order for RStudio to import properly. 
++ Then imported into RStudio project 1890-1900_topicmodel.Rproj and followed [Shawn Graham's topic modelling tutorial](http://workbook.craftingdigitalhistory.ca/supporting%20materials/topicmodel-r-yourmachine/).
+   + modelled 50 topics.
+   + created the following files:
+     + word frequency list: 1890-1900-word-freqs.csv
+	 + topic labels: 1890-1900-topics-labels.csv
+	 + frequency of topics across issues of the _Equity_: 1890-1900-topics-docs.csv.
+	 + 12 wordclouds that seemed to deal with social events, social trends, or social visits: 1890-1900_wordcloud_annie.png, 1890-1900_wordcloud_april.png, 1890-1900_wordcloud_christmas.png, 1890-1900_wordcloud_feb.png, 1890-1900_wordcloud_mabel.png, 1890-1900_wordcloud_hester.png, 1890-1900_wordcloud_july.png, 1890-1900_wordcloud_lauraine.png, 1890-1900_wordcloud_nov.png, 1890-1900_wordcloud_ruth.png, 1890-1900_wordcloud_sept.png, 1890-1900_wordcloud_time.png.
+	 + uploaded these files and R project files to github/hist3814o_finalproject/.
+	 
+### FUTURE WORK
++ visualize topic modelling data using RAW or similar chart-making program
+  + determine usefulness of such data, especially when heavily cleaned vs. when not cleaned at all (eg transcription of Jan 1895 social events vs uncleaned corpus of 1890-1900)
++ finish paradata
++ finish visualizations for final project
++ complete network models
++ regularize my file names, jfc
+  + organize my github repo
