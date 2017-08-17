@@ -1,4 +1,4 @@
-# Paradata: What is there to do around here, anyway? Visualizing social ties in the Equity, 1890-1900
+# Paradata: What is there to do around here, anyway? Visualizing social ties in the Equity, 1895
 ## Sarah Cole
 ### HIST3814O: Digital History
 ### Professor Shawn Graham
