@@ -1,0 +1,3772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="Edge Id" attr.type="string" for="edge" id="edgeid"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<key attr.name="Component ID" attr.type="int" for="node" id="componentnumber"/>
+<key attr.name="Strongly-Connected ID" attr.type="int" for="node" id="strongcompnum"/>
+<key attr.name="PageRank" attr.type="double" for="node" id="pageranks"/>
+<graph edgedefault="directed">
+<node id="Radford">
+<data key="label">Radford</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">11</data>
+<data key="pageranks">0.06158957041391672</data>
+<data key="size">16.55421</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-393.2436</data>
+<data key="y">83.390594</data>
+</node>
+<node id="Ottawa">
+<data key="label">Ottawa</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">11</data>
+<data key="pageranks">0.06617759994833922</data>
+<data key="size">17.132883</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-149.94447</data>
+<data key="y">-126.014626</data>
+</node>
+<node id="Parkman">
+<data key="label">Parkman</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">4</data>
+<data key="pageranks">0.04849043112760121</data>
+<data key="size">14.902062</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-352.02554</data>
+<data key="y">-252.27826</data>
+</node>
+<node id="Shawville">
+<data key="label">Shawville</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">11</data>
+<data key="pageranks">0.08890967719786945</data>
+<data key="size">20.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-86.12338</data>
+<data key="y">117.08967</data>
+</node>
+<node id="Quebec">
+<data key="label">Quebec</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">10</data>
+<data key="pageranks">0.018019595442369665</data>
+<data key="size">11.058884</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-136.31978</data>
+<data key="y">213.02435</data>
+</node>
+<node id="Calumet Island">
+<data key="label">Calumet Island</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">12</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">76.44447</data>
+<data key="y">-373.9465</data>
+</node>
+<node id="Elmside">
+<data key="label">Elmside</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">11</data>
+<data key="pageranks">0.0826539360677561</data>
+<data key="size">19.210985</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">18.003483</data>
+<data key="y">-382.2606</data>
+</node>
+<node id="Pembroke">
+<data key="label">Pembroke</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">13</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">42.84833</data>
+<data key="y">-194.30904</data>
+</node>
+<node id="Belleville">
+<data key="label">Belleville</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">11</data>
+<data key="pageranks">0.018019595442369665</data>
+<data key="size">11.058884</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">33.051437</data>
+<data key="y">95.83687</data>
+</node>
+<node id="Otter Lake">
+<data key="label">Otter Lake</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">11</data>
+<data key="pageranks">0.018019595442369665</data>
+<data key="size">11.058884</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-257.6543</data>
+<data key="y">122.70389</data>
+</node>
+<node id="Eau Claire">
+<data key="label">Eau Claire</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">14</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-481.52676</data>
+<data key="y">94.77862</data>
+</node>
+<node id="Montreal">
+<data key="label">Montreal</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">3</data>
+<data key="pageranks">0.050827549124765004</data>
+<data key="size">15.1968355</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-446.95856</data>
+<data key="y">-281.80362</data>
+</node>
+<node id="Quyon">
+<data key="label">Quyon</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">11</data>
+<data key="pageranks">0.04911327210416195</data>
+<data key="size">14.980619</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">34.97732</data>
+<data key="y">-31.39797</data>
+</node>
+<node id="Bryson">
+<data key="label">Bryson</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">1</data>
+<data key="pageranks">0.023539711593247168</data>
+<data key="size">11.755116</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">45.759037</data>
+<data key="y">24.984695</data>
+</node>
+<node id="B. McGrath">
+<data key="label">B. McGrath</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">15</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-103.22809</data>
+<data key="y">172.77632</data>
+</node>
+<node id="Bella Armstrong">
+<data key="label">Bella Armstrong</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">17</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-56.1304</data>
+<data key="y">-543.13275</data>
+</node>
+<node id="Almonte">
+<data key="label">Almonte</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">16</data>
+<data key="pageranks">0.017804190557845476</data>
+<data key="size">11.031715</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-37.362732</data>
+<data key="y">-487.75574</data>
+</node>
+<node id="Carthage">
+<data key="label">Carthage</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">9</data>
+<data key="pageranks">0.018019595442369665</data>
+<data key="size">11.058884</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-169.46922</data>
+<data key="y">229.98744</data>
+</node>
+<node id="Portage du Fort">
+<data key="label">Portage du Fort</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">18</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-421.14706</data>
+<data key="y">-222.47212</data>
+</node>
+<node id="New York">
+<data key="label">New York</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">8</data>
+<data key="pageranks">0.018019595442369665</data>
+<data key="size">11.058884</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-41.7588</data>
+<data key="y">215.54948</data>
+</node>
+<node id="England">
+<data key="label">England</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">7</data>
+<data key="pageranks">0.018019595442369665</data>
+<data key="size">11.058884</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-73.871284</data>
+<data key="y">219.4293</data>
+</node>
+<node id="Carp">
+<data key="label">Carp</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">5</data>
+<data key="pageranks">0.013103067288940557</data>
+<data key="size">10.438779</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">141.61404</data>
+<data key="y">-51.44231</data>
+</node>
+<node id="Bristol">
+<data key="label">Bristol</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">11</data>
+<data key="pageranks">0.03304580758563869</data>
+<data key="size">12.954086</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">88.51737</data>
+<data key="y">-490.51367</data>
+</node>
+<node id="North Onslow">
+<data key="label">North Onslow</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">20</data>
+<data key="pageranks">0.02189419290968237</data>
+<data key="size">11.547573</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">287.91083</data>
+<data key="y">34.096634</data>
+</node>
+<node id="Vinton">
+<data key="label">Vinton</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">19</data>
+<data key="pageranks">0.028232994070365173</data>
+<data key="size">12.347063</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">359.12006</data>
+<data key="y">62.203835</data>
+</node>
+<node id="Thurso">
+<data key="label">Thurso</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">22</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">933.0743</data>
+<data key="y">1038.3716</data>
+</node>
+<node id="Clarendon">
+<data key="label">Clarendon</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">21</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">873.6501</data>
+<data key="y">1024.1725</data>
+</node>
+<node id="Addison">
+<data key="label">Addison</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">6</data>
+<data key="pageranks">0.018019595442369665</data>
+<data key="size">11.058884</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-91.28355</data>
+<data key="y">269.24634</data>
+</node>
+<node id="Greer Mount">
+<data key="label">Greer Mount</data>
+<data key="componentnumber">2</data>
+<data key="strongcompnum">24</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">183</data>
+<data key="b">218</data>
+<data key="x">1489.5858</data>
+<data key="y">-51.894722</data>
+</node>
+<node id="Ontario">
+<data key="label">Ontario</data>
+<data key="componentnumber">2</data>
+<data key="strongcompnum">23</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">183</data>
+<data key="b">218</data>
+<data key="x">1522.0255</data>
+<data key="y">-69.13399</data>
+</node>
+<node id="Nova Scotia">
+<data key="label">Nova Scotia</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">25</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">80.87975</data>
+<data key="y">-77.118034</data>
+</node>
+<node id="Carleton Place">
+<data key="label">Carleton Place</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">26</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-453.70755</data>
+<data key="y">146.58531</data>
+</node>
+<node id="Eardley">
+<data key="label">Eardley</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">11</data>
+<data key="pageranks">0.03579821534733446</data>
+<data key="size">13.301238</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-320.634</data>
+<data key="y">117.43011</data>
+</node>
+<node id="Arnprior">
+<data key="label">Arnprior</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">11</data>
+<data key="pageranks">0.03772422678469875</data>
+<data key="size">13.544159</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">99.82866</data>
+<data key="y">-438.0538</data>
+</node>
+<node id="Maryland">
+<data key="label">Maryland</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">2</data>
+<data key="pageranks">0.038861833221457205</data>
+<data key="size">13.687641</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">91.5349</data>
+<data key="y">-210.8345</data>
+</node>
+<node id="Miss Mary Finlan">
+<data key="label">Miss Mary Finlan</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">28</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">6.7049565</data>
+<data key="y">-480.02325</data>
+</node>
+<node id="Renfrew">
+<data key="label">Renfrew</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">27</data>
+<data key="pageranks">0.01371418820600858</data>
+<data key="size">10.515858</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">9.439516</data>
+<data key="y">-528.40985</data>
+</node>
+<node id="Edmonton">
+<data key="label">Edmonton</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">29</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-380.5744</data>
+<data key="y">-296.34692</data>
+</node>
+<node id="Sturgeon Falls">
+<data key="label">Sturgeon Falls</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">30</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">180.00589</data>
+<data key="y">5.555954</data>
+</node>
+<node id="Dundas">
+<data key="label">Dundas</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">31</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">0.8981519</data>
+<data key="y">176.79308</data>
+</node>
+<node id="Hazelhurst Wis">
+<data key="label">Hazelhurst Wis</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">32</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">356.30157</data>
+<data key="y">25.19484</data>
+</node>
+<node id="Haley's Station">
+<data key="label">Haley's Station</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">33</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-132.99672</data>
+<data key="y">251.6316</data>
+</node>
+<node id="Onslow">
+<data key="label">Onslow</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">34</data>
+<data key="pageranks">0.009624185854171685</data>
+<data key="size">10.0</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-7.507761</data>
+<data key="y">245.35287</data>
+</node>
+<node id="Mattawa">
+<data key="label">Mattawa</data>
+<data key="componentnumber">1</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.018019595442369665</data>
+<data key="size">11.058884</data>
+<data key="r">104</data>
+<data key="g">173</data>
+<data key="b">54</data>
+<data key="x">-180.28044</data>
+<data key="y">171.56264</data>
+</node>
+<node id="Miss L. Black">
+<data key="label">Miss L. Black</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">1456.6415</data>
+<data key="y">-65.63041</data>
+</node>
+<node id="John Lester">
+<data key="label">John Lester</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-115.98405</data>
+<data key="y">60.83106</data>
+</node>
+<node id="Claude McLachlin">
+<data key="label">Claude McLachlin</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-54.853706</data>
+<data key="y">242.48332</data>
+</node>
+<node id="Wm. Eades">
+<data key="label">Wm. Eades</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-452.98743</data>
+<data key="y">46.31415</data>
+</node>
+<node id="Wm Richardson">
+<data key="label">Wm Richardson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">87.92491</data>
+<data key="y">-12.553615</data>
+</node>
+<node id="Willie Ringrose">
+<data key="label">Willie Ringrose</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-1509.1139</data>
+<data key="y">-62.71726</data>
+</node>
+<node id="William Shaw">
+<data key="label">William Shaw</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-133.53044</data>
+<data key="y">-16.690489</data>
+</node>
+<node id="William Graham">
+<data key="label">William Graham</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">5.630233</data>
+<data key="y">-439.99045</data>
+</node>
+<node id="Wellington Bradley">
+<data key="label">Wellington Bradley</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-440.5795</data>
+<data key="y">72.53077</data>
+</node>
+<node id="W.C. McGUIRE">
+<data key="label">W.C. McGUIRE</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-121.938385</data>
+<data key="y">22.173256</data>
+</node>
+<node id="W. C. McGuire">
+<data key="label">W. C. McGuire</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-158.96751</data>
+<data key="y">190.15729</data>
+</node>
+<node id="Tom">
+<data key="label">Tom</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-0.36064938</data>
+<data key="y">64.02328</data>
+</node>
+<node id="Thomas Lewis">
+<data key="label">Thomas Lewis</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-168.03453</data>
+<data key="y">141.52539</data>
+</node>
+<node id="Fitzroy">
+<data key="label">Fitzroy</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">1180.0173</data>
+<data key="y">-831.0794</data>
+</node>
+<node id="Thomas G. Somerville">
+<data key="label">Thomas G. Somerville</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">1191.2778</data>
+<data key="y">-807.278</data>
+</node>
+<node id="Thomas Dale">
+<data key="label">Thomas Dale</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-56.850773</data>
+<data key="y">190.24843</data>
+</node>
+<node id="T. Richardson">
+<data key="label">T. Richardson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-423.25684</data>
+<data key="y">145.64612</data>
+</node>
+<node id="Sylvanus Richards">
+<data key="label">Sylvanus Richards</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">152.44669</data>
+<data key="y">-449.67502</data>
+</node>
+<node id="Samuel Howes">
+<data key="label">Samuel Howes</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-199.26743</data>
+<data key="y">119.61075</data>
+</node>
+<node id="Samuel Hamilton">
+<data key="label">Samuel Hamilton</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">870.992</data>
+<data key="y">990.4489</data>
+</node>
+<node id="S. A. MCKAY">
+<data key="label">S. A. MCKAY</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-46.600998</data>
+<data key="y">22.517694</data>
+</node>
+<node id="Robert McKenney">
+<data key="label">Robert McKenney</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-8.779118</data>
+<data key="y">213.45798</data>
+</node>
+<node id="Richard Hynes">
+<data key="label">Richard Hynes</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">848.79083</data>
+<data key="y">973.7589</data>
+</node>
+<node id="Rev. Eason">
+<data key="label">Rev. Eason</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-403.1942</data>
+<data key="y">128.80737</data>
+</node>
+<node id="Rev. A. Elliott">
+<data key="label">Rev. A. Elliott</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-146.72496</data>
+<data key="y">298.966</data>
+</node>
+<node id="R. Cuthbertson">
+<data key="label">R. Cuthbertson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-1474.998</data>
+<data key="y">-3.4248211</data>
+</node>
+<node id="P. Kane">
+<data key="label">P. Kane</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">334.00443</data>
+<data key="y">8.77844</data>
+</node>
+<node id="Mrs. Rev. Wm. Knox">
+<data key="label">Mrs. Rev. Wm. Knox</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-90.727875</data>
+<data key="y">318.29443</data>
+</node>
+<node id="Mrs. R. Richardson">
+<data key="label">Mrs. R. Richardson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-448.4275</data>
+<data key="y">97.55588</data>
+</node>
+<node id="Mrs. Mulligan">
+<data key="label">Mrs. Mulligan</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">25.658808</data>
+<data key="y">-126.100006</data>
+</node>
+<node id="Mrs. McDermott">
+<data key="label">Mrs. McDermott</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">123.258934</data>
+<data key="y">-503.48984</data>
+</node>
+<node id="Mrs. John Bradley">
+<data key="label">Mrs. John Bradley</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-372.97433</data>
+<data key="y">143.75885</data>
+</node>
+<node id="Mrs. Jas. C. Williams">
+<data key="label">Mrs. Jas. C. Williams</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">143.00473</data>
+<data key="y">-477.00204</data>
+</node>
+<node id="Mrs. George Richardson">
+<data key="label">Mrs. George Richardson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-430.87668</data>
+<data key="y">117.43333</data>
+</node>
+<node id="Mrs. Craig">
+<data key="label">Mrs. Craig</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-1509.1425</data>
+<data key="y">-0.34248644</data>
+</node>
+<node id="Mrs. C. Stewart">
+<data key="label">Mrs. C. Stewart</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-1460.5848</data>
+<data key="y">-31.72837</data>
+</node>
+<node id="Mrs. Alex Bell">
+<data key="label">Mrs. Alex Bell</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">198.32164</data>
+<data key="y">31.461344</data>
+</node>
+<node id="Mrs. A. Grimes">
+<data key="label">Mrs. A. Grimes</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-269.27786</data>
+<data key="y">-182.89357</data>
+</node>
+<node id="Mrs Wm. Lochart">
+<data key="label">Mrs Wm. Lochart</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-362.4826</data>
+<data key="y">-323.18417</data>
+</node>
+<node id="Mr.McKechnie">
+<data key="label">Mr.McKechnie</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-59.953747</data>
+<data key="y">-401.52686</data>
+</node>
+<node id="Mr. W. E. Rowan">
+<data key="label">Mr. W. E. Rowan</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">125.07395</data>
+<data key="y">-322.9063</data>
+</node>
+<node id="Mr. Robert Smart">
+<data key="label">Mr. Robert Smart</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-342.2745</data>
+<data key="y">-299.93784</data>
+</node>
+<node id="Mr. Richard Dagg">
+<data key="label">Mr. Richard Dagg</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">909.97955</data>
+<data key="y">1018.0575</data>
+</node>
+<node id="Mr. R. Campbell">
+<data key="label">Mr. R. Campbell</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-45.68054</data>
+<data key="y">-428.00735</data>
+</node>
+<node id="Mr. Mulligan">
+<data key="label">Mr. Mulligan</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">54.591145</data>
+<data key="y">-119.3582</data>
+</node>
+<node id="Mr. Little">
+<data key="label">Mr. Little</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">827.70026</data>
+<data key="y">1053.9918</data>
+</node>
+<node id="Mr. Letts">
+<data key="label">Mr. Letts</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">99.935295</data>
+<data key="y">-354.71365</data>
+</node>
+<node id="Mr. Larivee">
+<data key="label">Mr. Larivee</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">66.36673</data>
+<data key="y">-458.13437</data>
+</node>
+<node id="Mr. James Armstrong">
+<data key="label">Mr. James Armstrong</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">903.0342</data>
+<data key="y">991.8288</data>
+</node>
+<node id="Mr. Daniel Smith">
+<data key="label">Mr. Daniel Smith</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">136.45828</data>
+<data key="y">-224.8649</data>
+</node>
+<node id="Mr. Campbell">
+<data key="label">Mr. Campbell</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-25.162174</data>
+<data key="y">187.20412</data>
+</node>
+<node id="Mr. B. Smart">
+<data key="label">Mr. B. Smart</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-318.1504</data>
+<data key="y">-284.5004</data>
+</node>
+<node id="Mr. Alex Bell">
+<data key="label">Mr. Alex Bell</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">208.2267</data>
+<data key="y">-8.794492</data>
+</node>
+<node id="Miss Wm.Lochart sr">
+<data key="label">Miss Wm.Lochart sr</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-396.03088</data>
+<data key="y">-323.80954</data>
+</node>
+<node id="Miss Wm. Lochart jr">
+<data key="label">Miss Wm. Lochart jr</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-406.47995</data>
+<data key="y">-279.49277</data>
+</node>
+<node id="Miss Mulligan">
+<data key="label">Miss Mulligan</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">81.548546</data>
+<data key="y">-162.08733</data>
+</node>
+<node id=" Quyon">
+<data key="label"> Quyon</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">1264.9688</data>
+<data key="y">-458.75558</data>
+</node>
+<node id="Miss McAllister">
+<data key="label">Miss McAllister</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">1264.2762</data>
+<data key="y">-485.0766</data>
+</node>
+<node id="Miss Mary Ebert">
+<data key="label">Miss Mary Ebert</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">1487.8184</data>
+<data key="y">-17.637512</data>
+</node>
+<node id="Miss MacIntosh">
+<data key="label">Miss MacIntosh</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">855.24866</data>
+<data key="y">1058.8082</data>
+</node>
+<node id="Miss Mabel McDonald">
+<data key="label">Miss Mabel McDonald</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">49.872814</data>
+<data key="y">-287.2131</data>
+</node>
+<node id="Miss Jennie Sturgeon">
+<data key="label">Miss Jennie Sturgeon</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">843.3077</data>
+<data key="y">1000.77814</data>
+</node>
+<node id="Miss Jennie May Richard">
+<data key="label">Miss Jennie May Richard</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">57.8317</data>
+<data key="y">-432.7157</data>
+</node>
+<node id="Miss J. McPherson">
+<data key="label">Miss J. McPherson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-22.59027</data>
+<data key="y">-451.6741</data>
+</node>
+<node id=" Belleville">
+<data key="label"> Belleville</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">145.84462</data>
+<data key="y">50.038795</data>
+</node>
+<node id="Miss Holton">
+<data key="label">Miss Holton</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">115.632965</data>
+<data key="y">23.378792</data>
+</node>
+<node id="Miss Finlan">
+<data key="label">Miss Finlan</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-33.572777</data>
+<data key="y">-401.7806</data>
+</node>
+<node id="Miss D. Hamilton">
+<data key="label">Miss D. Hamilton</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-426.54834</data>
+<data key="y">47.45422</data>
+</node>
+<node id="Miss Annie Grant">
+<data key="label">Miss Annie Grant</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-359.46146</data>
+<data key="y">117.84524</data>
+</node>
+<node id="Miss A. Bolam">
+<data key="label">Miss A. Bolam</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-1475.6031</data>
+<data key="y">-59.679596</data>
+</node>
+<node id="Mary J. Bell">
+<data key="label">Mary J. Bell</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-70.436584</data>
+<data key="y">-75.16906</data>
+</node>
+<node id="M. Kane">
+<data key="label">M. Kane</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">326.08716</data>
+<data key="y">44.192715</data>
+</node>
+<node id="Lyla McLean">
+<data key="label">Lyla McLean</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-225.2732</data>
+<data key="y">138.76016</data>
+</node>
+<node id="Lizzie Richardson">
+<data key="label">Lizzie Richardson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-467.7499</data>
+<data key="y">123.34289</data>
+</node>
+<node id="Jphn Murray">
+<data key="label">Jphn Murray</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-85.54309</data>
+<data key="y">193.6598</data>
+</node>
+<node id="Joseph Dowe">
+<data key="label">Joseph Dowe</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">12.79661</data>
+<data key="y">288.58185</data>
+</node>
+<node id="John Turner">
+<data key="label">John Turner</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">304.52094</data>
+<data key="y">71.036</data>
+</node>
+<node id="John Sturgeon">
+<data key="label">John Sturgeon</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">818.3062</data>
+<data key="y">1012.4292</data>
+</node>
+<node id="John R. Young">
+<data key="label">John R. Young</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-63.35166</data>
+<data key="y">-254.3323</data>
+</node>
+<node id="John McTiernan">
+<data key="label">John McTiernan</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">880.9366</data>
+<data key="y">1068.3519</data>
+</node>
+<node id="John McAdam">
+<data key="label">John McAdam</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">96.66092</data>
+<data key="y">-54.709644</data>
+</node>
+<node id="Murell's Settlement">
+<data key="label">Murell's Settlement</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-1495.9825</data>
+<data key="y">-31.449055</data>
+</node>
+<node id="John A. Cameron">
+<data key="label">John A. Cameron</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-1529.2562</data>
+<data key="y">-31.776836</data>
+</node>
+<node id="James Wilson">
+<data key="label">James Wilson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-30.75389</data>
+<data key="y">93.25162</data>
+</node>
+<node id="James Prendergast">
+<data key="label">James Prendergast</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-139.9744</data>
+<data key="y">73.448135</data>
+</node>
+<node id="J.Y. Caldwell">
+<data key="label">J.Y. Caldwell</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">111.277115</data>
+<data key="y">-382.06494</data>
+</node>
+<node id="J.H. Shaw">
+<data key="label">J.H. Shaw</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-85.69577</data>
+<data key="y">54.871277</data>
+</node>
+<node id="J.H. Brownlee">
+<data key="label">J.H. Brownlee</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-164.25418</data>
+<data key="y">86.47695</data>
+</node>
+<node id="J. Medcof">
+<data key="label">J. Medcof</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-390.65445</data>
+<data key="y">-223.68988</data>
+</node>
+<node id="J. McDowell">
+<data key="label">J. McDowell</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">1524.5222</data>
+<data key="y">-40.292377</data>
+</node>
+<node id="Henry Judd">
+<data key="label">Henry Judd</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">1482.7347</data>
+<data key="y">-85.65609</data>
+</node>
+<node id="Harry">
+<data key="label">Harry</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">8.669526</data>
+<data key="y">36.367706</data>
+</node>
+<node id="H. J. Ferguson">
+<data key="label">H. J. Ferguson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-54.639153</data>
+<data key="y">-100.270836</data>
+</node>
+<node id="H. Argue">
+<data key="label">H. Argue</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-99.86521</data>
+<data key="y">236.92012</data>
+</node>
+<node id="Grace McKechnie">
+<data key="label">Grace McKechnie</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">962.8424</data>
+<data key="y">1038.8889</data>
+</node>
+<node id="George Lothian">
+<data key="label">George Lothian</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-88.20492</data>
+<data key="y">-270.20877</data>
+</node>
+<node id="F. S. Roy">
+<data key="label">F. S. Roy</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">93.55721</data>
+<data key="y">-400.47003</data>
+</node>
+<node id="F. Hearty">
+<data key="label">F. Hearty</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">335.18338</data>
+<data key="y">80.50786</data>
+</node>
+<node id="Edward Dagg">
+<data key="label">Edward Dagg</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">886.28577</data>
+<data key="y">968.81323</data>
+</node>
+<node id="Ed. Graham">
+<data key="label">Ed. Graham</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">51.868317</data>
+<data key="y">-482.2152</data>
+</node>
+<node id="E. L. McJanet">
+<data key="label">E. L. McJanet</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-366.8532</data>
+<data key="y">-207.89621</data>
+</node>
+<node id="Dr. Groves jr">
+<data key="label">Dr. Groves jr</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">181.45241</data>
+<data key="y">-63.478508</data>
+</node>
+<node id="Dr. Groves">
+<data key="label">Dr. Groves</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">117.616974</data>
+<data key="y">-29.794292</data>
+</node>
+<node id="Carey">
+<data key="label">Carey</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-427.3304</data>
+<data key="y">-248.95656</data>
+</node>
+<node id="C. C. Wilson">
+<data key="label">C. C. Wilson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-14.640772</data>
+<data key="y">116.15866</data>
+</node>
+<node id="Borthwick">
+<data key="label">Borthwick</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-200.40945</data>
+<data key="y">-137.3133</data>
+</node>
+<node id="Billy">
+<data key="label">Billy</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">30.541992</data>
+<data key="y">60.627346</data>
+</node>
+<node id="Bessie Rutledge">
+<data key="label">Bessie Rutledge</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-179.5947</data>
+<data key="y">-168.28793</data>
+</node>
+<node id="Ramsay">
+<data key="label">Ramsay</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-66.63047</data>
+<data key="y">-582.55115</data>
+</node>
+<node id="Artie">
+<data key="label">Artie</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-13.925646</data>
+<data key="y">18.257252</data>
+</node>
+<node id="Archdeacon Naylor">
+<data key="label">Archdeacon Naylor</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-424.76767</data>
+<data key="y">-306.38428</data>
+</node>
+<node id="Annie Murray">
+<data key="label">Annie Murray</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">67.62571</data>
+<data key="y">-342.20883</data>
+</node>
+<node id="Annie Jones">
+<data key="label">Annie Jones</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-474.10355</data>
+<data key="y">68.58322</data>
+</node>
+<node id="Andy Farrell">
+<data key="label">Andy Farrell</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-281.46677</data>
+<data key="y">156.56407</data>
+</node>
+<node id=" Elmside">
+<data key="label"> Elmside</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-1001.63605</data>
+<data key="y">1118.5872</data>
+</node>
+<node id="Andrew Grant">
+<data key="label">Andrew Grant</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-1022.4733</data>
+<data key="y">1102.4879</data>
+</node>
+<node id="Amelia Smart">
+<data key="label">Amelia Smart</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-396.63144</data>
+<data key="y">-251.8168</data>
+</node>
+<node id="Alf McRaw">
+<data key="label">Alf McRaw</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-48.994797</data>
+<data key="y">165.04596</data>
+</node>
+<node id="Alex Stewart">
+<data key="label">Alex Stewart</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">31.096664</data>
+<data key="y">-446.06796</data>
+</node>
+<node id="Ale McDonald">
+<data key="label">Ale McDonald</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">19.23312</data>
+<data key="y">-285.66608</data>
+</node>
+<node id="Agnes Murray">
+<data key="label">Agnes Murray</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">68.13605</data>
+<data key="y">-405.75</data>
+</node>
+<node id="A. Lyon">
+<data key="label">A. Lyon</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-109.65631</data>
+<data key="y">206.36426</data>
+</node>
+<node id="A. Grimes">
+<data key="label">A. Grimes</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-253.44217</data>
+<data key="y">-208.38652</data>
+</node>
+<node id="A. Brownlee">
+<data key="label">A. Brownlee</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-287.26532</data>
+<data key="y">-24.86955</data>
+</node>
+<node id="Miss K. McLean">
+<data key="label">Miss K. McLean</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">90.39526</data>
+<data key="y">-124.67409</data>
+</node>
+<node id="Alf McRae">
+<data key="label">Alf McRae</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">70.78497</data>
+<data key="y">125.0415</data>
+</node>
+<node id="Andy Farrel">
+<data key="label">Andy Farrel</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-402.84845</data>
+<data key="y">33.695183</data>
+</node>
+<node id="C. Dunkerley">
+<data key="label">C. Dunkerley</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-23.788168</data>
+<data key="y">159.9057</data>
+</node>
+<node id="C.C. Wilson">
+<data key="label">C.C. Wilson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-193.719</data>
+<data key="y">270.6339</data>
+</node>
+<node id="Grade McKechnie">
+<data key="label">Grade McKechnie</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">839.4144</data>
+<data key="y">1029.9883</data>
+</node>
+<node id="J. T. Pattison">
+<data key="label">J. T. Pattison</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-143.32626</data>
+<data key="y">132.72086</data>
+</node>
+<node id="J.T. Pattison">
+<data key="label">J.T. Pattison</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-74.23306</data>
+<data key="y">171.42198</data>
+</node>
+<node id="Maggie Martin">
+<data key="label">Maggie Martin</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">1458.9374</data>
+<data key="y">-33.698822</data>
+</node>
+<node id="Maurice Chevalier">
+<data key="label">Maurice Chevalier</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-29.808798</data>
+<data key="y">48.160603</data>
+</node>
+<node id="Mr.Larivee">
+<data key="label">Mr.Larivee</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-30.579334</data>
+<data key="y">-349.7506</data>
+</node>
+<node id="R.W. Hodgins">
+<data key="label">R.W. Hodgins</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">901.8013</data>
+<data key="y">1049.53</data>
+</node>
+<node id="Rev. A. Elliot">
+<data key="label">Rev. A. Elliot</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-32.31111</data>
+<data key="y">136.17487</data>
+</node>
+<node id="Rev. J. L. Flanain">
+<data key="label">Rev. J. L. Flanain</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-141.8782</data>
+<data key="y">101.99318</data>
+</node>
+<node id="S. A. McKay">
+<data key="label">S. A. McKay</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-164.77863</data>
+<data key="y">114.86724</data>
+</node>
+<node id="STACKHOUSE Sr.">
+<data key="label">STACKHOUSE Sr.</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-3.9112852</data>
+<data key="y">141.89656</data>
+</node>
+<node id="Sykvanus Richards">
+<data key="label">Sykvanus Richards</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-17.547472</data>
+<data key="y">-423.77304</data>
+</node>
+<node id="Sylvanus Richard">
+<data key="label">Sylvanus Richard</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-44.925537</data>
+<data key="y">-375.47354</data>
+</node>
+<node id="T.J. Wilson">
+<data key="label">T.J. Wilson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-150.51302</data>
+<data key="y">161.67206</data>
+</node>
+<node id="W. Finlan">
+<data key="label">W. Finlan</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">27.88822</data>
+<data key="y">-502.06848</data>
+</node>
+<node id="W. G. Bradford">
+<data key="label">W. G. Bradford</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-403.64407</data>
+<data key="y">-1567.2955</data>
+</node>
+<node id="Listowel">
+<data key="label">Listowel</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-428.95438</data>
+<data key="y">-1560.0304</data>
+</node>
+<node id="W.C. Dilworth">
+<data key="label">W.C. Dilworth</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-129.17856</data>
+<data key="y">182.32765</data>
+</node>
+<node id="Wm. Wilson">
+<data key="label">Wm. Wilson</data>
+<data key="componentnumber">0</data>
+<data key="strongcompnum">0</data>
+<data key="pageranks">0.0</data>
+<data key="size">10.0</data>
+<data key="r">255</data>
+<data key="g">116</data>
+<data key="b">62</data>
+<data key="x">-126.31445</data>
+<data key="y">156.21684</data>
+</node>
+<edge source="Radford" target="Ottawa">
+<data key="edgeid">0</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Ottawa" target="Parkman">
+<data key="edgeid">1</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Shawville" target="Quebec">
+<data key="edgeid">2</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Calumet Island" target="Elmside">
+<data key="edgeid">3</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Pembroke" target="Elmside">
+<data key="edgeid">4</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Shawville" target="Belleville">
+<data key="edgeid">5</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Otter Lake" target="Radford">
+<data key="edgeid">6</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Eau Claire" target="Radford">
+<data key="edgeid">7</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Calumet Island" target="Elmside">
+<data key="edgeid">8</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Parkman" target="Montreal">
+<data key="edgeid">9</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Shawville">
+<data key="edgeid">10</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Bryson">
+<data key="edgeid">11</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="B. McGrath" target="Shawville">
+<data key="edgeid">12</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Bella Armstrong" target="Almonte">
+<data key="edgeid">13</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Shawville">
+<data key="edgeid">14</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Bryson">
+<data key="edgeid">15</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Shawville" target="Carthage">
+<data key="edgeid">16</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Portage du Fort" target="Parkman">
+<data key="edgeid">17</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Shawville" target="New York">
+<data key="edgeid">18</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Shawville" target="England">
+<data key="edgeid">19</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Carp">
+<data key="edgeid">20</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Elmside" target="Bristol">
+<data key="edgeid">21</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="North Onslow" target="Vinton">
+<data key="edgeid">22</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Ottawa" target="Elmside">
+<data key="edgeid">23</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Thurso" target="Clarendon">
+<data key="edgeid">24</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Shawville" target="Addison">
+<data key="edgeid">25</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Ottawa">
+<data key="edgeid">26</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Shawville">
+<data key="edgeid">27</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Bryson">
+<data key="edgeid">28</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Greer Mount" target="Ontario">
+<data key="edgeid">29</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Nova Scotia" target="Quyon">
+<data key="edgeid">30</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Elmside" target="Ottawa">
+<data key="edgeid">31</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Carleton Place" target="Radford">
+<data key="edgeid">32</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Eardley" target="Shawville">
+<data key="edgeid">33</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Ottawa">
+<data key="edgeid">34</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Radford" target="Eardley">
+<data key="edgeid">35</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Belleville" target="Quyon">
+<data key="edgeid">36</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Almonte" target="Elmside">
+<data key="edgeid">37</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Almonte" target="Elmside">
+<data key="edgeid">38</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Arnprior" target="Elmside">
+<data key="edgeid">39</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Maryland">
+<data key="edgeid">40</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Pembroke" target="Elmside">
+<data key="edgeid">41</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mary Finlan" target="Renfrew">
+<data key="edgeid">42</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mary Finlan" target="Elmside">
+<data key="edgeid">43</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Pembroke" target="Quyon">
+<data key="edgeid">44</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Pembroke" target="Maryland">
+<data key="edgeid">45</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Pembroke" target="Maryland">
+<data key="edgeid">46</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Edmonton" target="Parkman">
+<data key="edgeid">47</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Edmonton" target="Parkman">
+<data key="edgeid">48</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Sturgeon Falls" target="North Onslow">
+<data key="edgeid">49</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Sturgeon Falls" target="Quyon">
+<data key="edgeid">50</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Dundas" target="Shawville">
+<data key="edgeid">51</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Arnprior" target="Elmside">
+<data key="edgeid">52</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Calumet Island" target="Elmside">
+<data key="edgeid">53</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Pembroke" target="Quyon">
+<data key="edgeid">54</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Elmside" target="Maryland">
+<data key="edgeid">55</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Arnprior" target="Elmside">
+<data key="edgeid">56</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Edmonton" target="Parkman">
+<data key="edgeid">57</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Ottawa" target="Parkman">
+<data key="edgeid">58</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Sturgeon Falls" target="North Onslow">
+<data key="edgeid">59</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Sturgeon Falls" target="Quyon">
+<data key="edgeid">60</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Eardley" target="Radford">
+<data key="edgeid">61</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Bristol" target="Arnprior">
+<data key="edgeid">62</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Pembroke" target="Quyon">
+<data key="edgeid">63</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Hazelhurst Wis" target="North Onslow">
+<data key="edgeid">64</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Haley's Station" target="Shawville">
+<data key="edgeid">65</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Onslow" target="Shawville">
+<data key="edgeid">66</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Shawville" target="Quyon">
+<data key="edgeid">67</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Shawville" target="Otter Lake">
+<data key="edgeid">68</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Arnprior" target="Elmside">
+<data key="edgeid">69</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Arnprior" target="Elmside">
+<data key="edgeid">70</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Shawville">
+<data key="edgeid">71</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Quyon" target="Bryson">
+<data key="edgeid">72</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Shawville" target="Mattawa">
+<data key="edgeid">73</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Ottawa" target="Shawville">
+<data key="edgeid">74</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Ottawa" target="Shawville">
+<data key="edgeid">75</data>
+<data key="edgelabel">Travel</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Eardley" target="Radford">
+<data key="edgeid">76</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss L. Black" target="Greer Mount">
+<data key="edgeid">318</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="John Lester" target="Shawville">
+<data key="edgeid">317</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Claude McLachlin" target="Shawville">
+<data key="edgeid">316</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Wm. Eades" target="Radford">
+<data key="edgeid">315</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Wm Richardson" target="Quyon">
+<data key="edgeid">314</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Willie Ringrose" target="Murell's Settlement">
+<data key="edgeid">313</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="William Shaw" target="Ottawa">
+<data key="edgeid">312</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="William Shaw" target="Shawville">
+<data key="edgeid">311</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="William Graham" target="Elmside">
+<data key="edgeid">310</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="W.C. McGUIRE" target="Ottawa">
+<data key="edgeid">308</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="W. C. McGuire" target="Shawville">
+<data key="edgeid">307</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Tom" target="Quyon">
+<data key="edgeid">306</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Thomas Lewis" target="Shawville">
+<data key="edgeid">305</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Thomas G. Somerville" target="Fitzroy">
+<data key="edgeid">304</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Thomas Dale" target="Shawville">
+<data key="edgeid">303</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="T. Richardson" target="Radford">
+<data key="edgeid">302</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Sylvanus Richards" target="Arnprior">
+<data key="edgeid">301</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Samuel Howes" target="Shawville">
+<data key="edgeid">300</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Samuel Hamilton" target="Clarendon">
+<data key="edgeid">299</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="S. A. MCKAY" target="Shawville">
+<data key="edgeid">298</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Robert McKenney" target="Onslow">
+<data key="edgeid">297</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Richard Hynes" target="Clarendon">
+<data key="edgeid">296</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Rev. Eason" target="Radford">
+<data key="edgeid">295</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Rev. A. Elliott" target="Haley's Station">
+<data key="edgeid">294</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="R. Cuthbertson" target="Murell's Settlement">
+<data key="edgeid">293</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="P. Kane" target="Hazelhurst Wis">
+<data key="edgeid">292</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Rev. Wm. Knox" target="Addison">
+<data key="edgeid">291</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. R. Richardson" target="Radford">
+<data key="edgeid">290</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Mulligan" target="Pembroke">
+<data key="edgeid">289</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. McDermott" target="Bristol">
+<data key="edgeid">288</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. John Bradley" target="Eardley">
+<data key="edgeid">287</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Jas. C. Williams" target="Arnprior">
+<data key="edgeid">286</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. George Richardson" target="Radford">
+<data key="edgeid">285</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Craig" target="Murell's Settlement">
+<data key="edgeid">284</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. C. Stewart" target="Murell's Settlement">
+<data key="edgeid">283</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Alex Bell" target="Sturgeon Falls">
+<data key="edgeid">282</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. A. Grimes" target="Ottawa">
+<data key="edgeid">281</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs Wm. Lochart" target="Edmonton">
+<data key="edgeid">280</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr.McKechnie" target="Elmside">
+<data key="edgeid">279</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. W. E. Rowan" target="Arnprior">
+<data key="edgeid">278</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Robert Smart" target="Parkman">
+<data key="edgeid">277</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Larivee" target="Arnprior">
+<data key="edgeid">271</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. James Armstrong" target="Clarendon">
+<data key="edgeid">270</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Daniel Smith" target="Maryland">
+<data key="edgeid">269</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Campbell" target="Dundas">
+<data key="edgeid">268</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. B. Smart" target="Parkman">
+<data key="edgeid">267</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Alex Bell" target="Sturgeon Falls">
+<data key="edgeid">266</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Wm.Lochart sr" target="Edmonton">
+<data key="edgeid">265</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Wm. Lochart jr" target="Edmonton">
+<data key="edgeid">264</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mulligan" target="Pembroke">
+<data key="edgeid">263</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss McAllister" target=" Quyon">
+<data key="edgeid">262</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mary Ebert" target="Greer Mount">
+<data key="edgeid">261</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Letts" target="Calumet Island">
+<data key="edgeid">272</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss MacIntosh" target="Clarendon">
+<data key="edgeid">260</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mabel McDonald" target="Pembroke">
+<data key="edgeid">259</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Jennie Sturgeon" target="Clarendon">
+<data key="edgeid">258</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Jennie May Richard" target="Arnprior">
+<data key="edgeid">257</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss J. McPherson" target="Almonte">
+<data key="edgeid">256</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Holton" target=" Belleville">
+<data key="edgeid">255</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Finlan" target="Elmside">
+<data key="edgeid">254</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss D. Hamilton" target="Radford">
+<data key="edgeid">253</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Annie Grant" target="Radford">
+<data key="edgeid">252</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss A. Bolam" target="Murell's Settlement">
+<data key="edgeid">251</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mary J. Bell" target="Quyon">
+<data key="edgeid">250</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="M. Kane" target="North Onslow">
+<data key="edgeid">249</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Lyla McLean" target="Eardley">
+<data key="edgeid">248</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Lizzie Richardson" target="Carleton Place">
+<data key="edgeid">247</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Jphn Murray" target="Shawville">
+<data key="edgeid">246</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Joseph Dowe" target="Onslow">
+<data key="edgeid">245</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="John Turner" target="North Onslow">
+<data key="edgeid">244</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="John Sturgeon" target="Clarendon">
+<data key="edgeid">243</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="John R. Young" target="Elmside">
+<data key="edgeid">242</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="John McTiernan" target="Clarendon">
+<data key="edgeid">241</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="John McAdam" target="Nova Scotia">
+<data key="edgeid">240</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="John A. Cameron" target="Murell's Settlement">
+<data key="edgeid">239</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="James Wilson" target="Shawville">
+<data key="edgeid">238</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="James Prendergast" target="Shawville">
+<data key="edgeid">237</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="J.Y. Caldwell" target="Elmside">
+<data key="edgeid">236</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="J.H. Shaw" target="Shawville">
+<data key="edgeid">235</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="J.H. Brownlee" target="Shawville">
+<data key="edgeid">234</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="J. Medcof" target="Parkman">
+<data key="edgeid">233</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="J. McDowell" target="Greer Mount">
+<data key="edgeid">232</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Henry Judd" target="Greer Mount">
+<data key="edgeid">231</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Harry" target="Quyon">
+<data key="edgeid">230</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Little" target="Clarendon">
+<data key="edgeid">273</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Mulligan" target="Pembroke">
+<data key="edgeid">274</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="H. J. Ferguson" target="Quyon">
+<data key="edgeid">229</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="H. Argue" target="Shawville">
+<data key="edgeid">228</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Grace McKechnie" target="Thurso">
+<data key="edgeid">227</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="George Lothian" target="Ottawa">
+<data key="edgeid">226</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="F. S. Roy" target="Elmside">
+<data key="edgeid">225</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="F. Hearty" target="North Onslow">
+<data key="edgeid">224</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Edward Dagg" target="Clarendon">
+<data key="edgeid">223</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Ed. Graham" target="Elmside">
+<data key="edgeid">222</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. R. Campbell" target="Elmside">
+<data key="edgeid">275</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="E. L. McJanet" target="Parkman">
+<data key="edgeid">221</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Dr. Groves jr" target="Carp">
+<data key="edgeid">220</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Dr. Groves" target="Quyon">
+<data key="edgeid">219</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Carey" target="Portage du Fort">
+<data key="edgeid">218</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="C. C. Wilson" target="Shawville">
+<data key="edgeid">217</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Borthwick" target="Ottawa">
+<data key="edgeid">216</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Billy" target="Quyon">
+<data key="edgeid">215</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Bessie Rutledge" target="Ottawa">
+<data key="edgeid">214</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Bella Armstrong" target="Ramsay">
+<data key="edgeid">213</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Artie" target="Quyon">
+<data key="edgeid">212</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Archdeacon Naylor" target="Parkman">
+<data key="edgeid">211</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Annie Murray" target="Calumet Island">
+<data key="edgeid">210</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Annie Jones" target="Eau Claire">
+<data key="edgeid">209</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Andy Farrell" target="Otter Lake">
+<data key="edgeid">208</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Andrew Grant" target=" Elmside">
+<data key="edgeid">207</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Amelia Smart" target="Parkman">
+<data key="edgeid">206</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Alf McRaw" target="Shawville">
+<data key="edgeid">205</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Ale McDonald" target="Pembroke">
+<data key="edgeid">203</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Alex Stewart" target="Elmside">
+<data key="edgeid">204</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Richard Dagg" target="Clarendon">
+<data key="edgeid">276</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Agnes Murray" target="Calumet Island">
+<data key="edgeid">202</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="A. Lyon" target="Shawville">
+<data key="edgeid">201</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="A. Grimes" target="Ottawa">
+<data key="edgeid">200</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="A. Brownlee" target="Radford">
+<data key="edgeid">199</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss K. McLean" target="Quyon">
+<data key="edgeid">198</data>
+<data key="edgelabel">Lives</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. W. E. Rowan" target="Maryland">
+<data key="edgeid">504</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mabel McDonald" target="Elmside">
+<data key="edgeid">503</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Wm. Wilson" target="Shawville">
+<data key="edgeid">502</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Wellington Bradley" target="Radford">
+<data key="edgeid">501</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="W.C. McGUIRE" target="Shawville">
+<data key="edgeid">500</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="W.C. McGUIRE" target="Shawville">
+<data key="edgeid">499</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="W.C. Dilworth" target="Shawville">
+<data key="edgeid">498</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="W. G. Bradford" target="Listowel">
+<data key="edgeid">497</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="W. Finlan" target="Elmside">
+<data key="edgeid">496</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="W. Finlan" target="Renfrew">
+<data key="edgeid">495</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="W. C. McGuire" target="Mattawa">
+<data key="edgeid">494</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Tom" target="Bryson">
+<data key="edgeid">493</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Tom" target="Shawville">
+<data key="edgeid">492</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="T.J. Wilson" target="Shawville">
+<data key="edgeid">491</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Sylvanus Richard" target="Elmside">
+<data key="edgeid">490</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Sykvanus Richards" target="Elmside">
+<data key="edgeid">489</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="STACKHOUSE Sr." target="Shawville">
+<data key="edgeid">488</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Samuel Howes" target="Otter Lake">
+<data key="edgeid">487</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="S. A. MCKAY" target="Quyon">
+<data key="edgeid">486</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="S. A. McKay" target="Shawville">
+<data key="edgeid">485</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Robert McKenney" target="Shawville">
+<data key="edgeid">484</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Rev. J. L. Flanain" target="Shawville">
+<data key="edgeid">483</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Rev. A. Elliot" target="Shawville">
+<data key="edgeid">482</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="R.W. Hodgins" target="Clarendon">
+<data key="edgeid">481</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="P. Kane" target="North Onslow">
+<data key="edgeid">480</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Mulligan" target="Quyon">
+<data key="edgeid">479</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. McDermott" target="Arnprior">
+<data key="edgeid">478</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. John Bradley" target="Radford">
+<data key="edgeid">477</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Alex Bell" target="Quyon">
+<data key="edgeid">476</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. Alex Bell" target="North Onslow">
+<data key="edgeid">475</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs. A. Grimes" target="Parkman">
+<data key="edgeid">474</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mrs Wm. Lochart" target="Parkman">
+<data key="edgeid">473</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr.Larivee" target="Elmside">
+<data key="edgeid">472</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Mulligan" target="Quyon">
+<data key="edgeid">471</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Letts" target="Elmside">
+<data key="edgeid">470</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Larivee" target="Elmside">
+<data key="edgeid">469</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Campbell" target="Shawville">
+<data key="edgeid">468</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Alex Bell" target="Quyon">
+<data key="edgeid">467</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mr. Alex Bell" target="North Onslow">
+<data key="edgeid">466</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Wm.Lochart sr" target="Parkman">
+<data key="edgeid">465</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Wm. Lochart jr" target="Parkman">
+<data key="edgeid">464</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mulligan" target="Maryland">
+<data key="edgeid">463</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mulligan" target="Maryland">
+<data key="edgeid">462</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mulligan" target="Quyon">
+<data key="edgeid">461</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mary Finlan" target="Elmside">
+<data key="edgeid">460</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Mary Finlan" target="Renfrew">
+<data key="edgeid">459</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss K. McLean" target="Maryland">
+<data key="edgeid">458</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Jennie May Richard" target="Elmside">
+<data key="edgeid">457</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss J. McPherson" target="Elmside">
+<data key="edgeid">456</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss J. McPherson" target="Elmside">
+<data key="edgeid">455</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Holton" target="Quyon">
+<data key="edgeid">454</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Miss Annie Grant" target="Eardley">
+<data key="edgeid">453</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Maurice Chevalier" target="Shawville">
+<data key="edgeid">452</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Maurice Chevalier" target="Quyon">
+<data key="edgeid">451</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Mary J. Bell" target="Ottawa">
+<data key="edgeid">450</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Maggie Martin" target="Greer Mount">
+<data key="edgeid">449</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Lyla McLean" target="Shawville">
+<data key="edgeid">448</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Lizzie Richardson" target="Radford">
+<data key="edgeid">447</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="John R. Young" target="Ottawa">
+<data key="edgeid">446</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="John McAdam" target="Quyon">
+<data key="edgeid">445</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="J.T. Pattison" target="Shawville">
+<data key="edgeid">444</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="J. T. Pattison" target="Shawville">
+<data key="edgeid">443</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="J. McDowell" target="Ontario">
+<data key="edgeid">442</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Harry" target="Bryson">
+<data key="edgeid">441</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Harry" target="Shawville">
+<data key="edgeid">440</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="H. J. Ferguson" target="Ottawa">
+<data key="edgeid">439</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="H. Argue" target="Addison">
+<data key="edgeid">438</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Grade McKechnie" target="Clarendon">
+<data key="edgeid">437</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="George Lothian" target="Elmside">
+<data key="edgeid">436</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="F. Hearty" target="Vinton">
+<data key="edgeid">435</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Ed. Graham" target="Bristol">
+<data key="edgeid">434</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Dr. Groves" target="Carp">
+<data key="edgeid">433</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Claude McLachlin" target="England">
+<data key="edgeid">432</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Claude McLachlin" target="New York">
+<data key="edgeid">431</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Carey" target="Parkman">
+<data key="edgeid">430</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="C.C. Wilson" target="Carthage">
+<data key="edgeid">429</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="C. Dunkerley" target="Shawville">
+<data key="edgeid">428</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Billy" target="Bryson">
+<data key="edgeid">427</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Billy" target="Shawville">
+<data key="edgeid">426</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Bella Armstrong" target="Almonte">
+<data key="edgeid">425</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="B. McGrath" target="Shawville">
+<data key="edgeid">424</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Artie" target="Bryson">
+<data key="edgeid">423</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Artie" target="Shawville">
+<data key="edgeid">422</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Archdeacon Naylor" target="Montreal">
+<data key="edgeid">421</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Annie Murray" target="Elmside">
+<data key="edgeid">420</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Annie Jones" target="Radford">
+<data key="edgeid">419</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Andy Farrel" target="Radford">
+<data key="edgeid">418</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Alf McRae" target="Belleville">
+<data key="edgeid">417</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Ale McDonald" target="Elmside">
+<data key="edgeid">416</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="Agnes Murray" target="Elmside">
+<data key="edgeid">415</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="A. Lyon" target="Quebec">
+<data key="edgeid">414</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="A. Grimes" target="Parkman">
+<data key="edgeid">413</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="A. Brownlee" target="Ottawa">
+<data key="edgeid">412</data>
+<data key="edgelabel">Visits</data>
+<data key="weight">1.0</data>
+</edge>
+</graph>
+</graphml>
