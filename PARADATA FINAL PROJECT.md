@@ -76,36 +76,22 @@ I moved on to topic modelling, hoping to find some interesting themes related to
    + a .csv containing word frequencies across the corpus
    + a .csv containing topic labels for each topic, consisting of some of the most frequently-used words in the topic
    + a .csv containing the frequency of each topic across the corpus.
+   
+All twelve of these documents are available on this [github repo](https://github.com/sarahmcole/hist3814o_final_project).
 
 Each corpus returned a few topics related to social events and a few topics that seemed unrelated. In particular, the two uncleaned corpuses returned a couple of topics of header or giberish text; all four corpuses also returned topics including "Shawville" and "Thursday" in some variation, reflecting the publication date of the _Equity_ rather than any new information. I think topic modelling would work better on a spellchecked corpus with document headers removed, but otherwise unmanipulated.
 
 I confirmed this suspicion when I tried graphing the frequency of topics across my corpuses using RAW. The topics derived from my two events lists were too specific and narrow to show any meaningful change over time, which is of course what I'm looking for as a historian. This occured because most of the topics emerged from the text of one or two events that occured in 1895, so when plotted on a scatterplot in RAW, the data showed one or two concentrations of data instead of a trend.
 
-My graphs for January 1895 social events:
-
-Topic: "carnival evening friday attended held"
-Topic: "evening guests time year singing"
-
-My graphs for 1895 social events:
-
-Topic: "sunday school service prayer church"
-Topic: "church temperance city sold society"
+Please see this [github repo](https://github.com/sarahmcole/hist3814o_final_project) or [my Wordpress post](http://sarahmcole.ca/hist3814o/paradata-what-is-there-to-do-around-here-anyway-visualizing-social-ties-in-the-equity-1895/) for graphs.
 
 These topics contain words that are clearly related, but the graphs show that this is no great discovery, for the algorithm simply picked up one or two specfic events - like the carnival held in January 1895 - and generated topics with the surrounding words. These topics tell us about kinds of events that were held, but not much about how frequently they were held or whether their popularity changed over time.
 
 The graphs developed for the full texts of 1895 and 1890-1900 were slightly more revealing. They still did not show major trends over time. I suspect that I would need a broader corpus, perhaps reaching into the 1920s or 1930s, to see meaningful trends in changing social patterns. A lot can change in a decade, but the social patterns of an entire community, especially a tight-knit rural community, don't shift that quickly. 
 
+Please see this [github repo](https://github.com/sarahmcole/hist3814o_final_project) or [my Wordpress post](http://sarahmcole.ca/hist3814o/paradata-what-is-there-to-do-around-here-anyway-visualizing-social-ties-in-the-equity-1895/) for graphs.
+
 Still, these topic models helped me see how 1895 was or was not a typical year for Pontiac county; if the topics generated from my 1895 events data were similar to the topics generated over the entire corpus, I could assume that these social patterns were not just quirks in my data collection and cleaning.
-
-My graphs for 1895 corpus:
-
-Topic: "baie attending hia des harvest"
-Topic "jan carnival overcoats dosen"
-
-My graphs for the 1890-1900 corpus:
-
-Topic: "feb wire deacon drama current"
-Topic: "sept harvest sickle kootenay rig"
 
 These graphs were interesting because they showed:
    + a high correlation between January 1895 and the carnival held in Ottawa that month, suggesting that an event of that size didn't happen very often 
@@ -114,13 +100,7 @@ These graphs were interesting because they showed:
    
 The most useful thing generated from these topic models, however, were the wordclouds. While wordclouds are not particularly useful for rigorous analysis, the following visualizations did help me see connections between certain words, and how the correlations between different words changed between my datasets.
 
-Wordclouds for January 1895 events:
-
-Wordclouds for 1895 events:
-
-Wordclouds for 1895 full text:
-
-Wordclouds for 1890-1900 full text:
+Please see this [github repo](https://github.com/sarahmcole/hist3814o_final_project) or [my faillog](http://sarahmcole.ca/hist3814o/paradata-what-is-there-to-do-around-here-anyway-visualizing-social-ties-in-the-equity-1895/) for a list of these wordclouds.
 
 These wordclouds show interesting, though not always statistically relevant, correlations between certain times of year and certain events. It seems singing was mentioned quite a bit in the winter months, and cabins moreso in the warmer months.
 
@@ -131,19 +111,29 @@ To further investigate this, I analyzed the full text of 1895 and 1890-1900 in [
 Voyant word frequency graphs for [1890-1900 corpus:](http://voyant-tools.org/?corpus=7f30c8605fa0f24c1711af8d1b0699e7)
 
 ["mr" "friend*" "visit*"](http://voyant-tools.org/?corpus=7f30c8605fa0f24c1711af8d1b0699e7&query=friend*&query=visit*&query=mr&bins=66&view=Trends)
+
 ["mrs*" "friend*" "visit*"](http://voyant-tools.org/?corpus=7f30c8605fa0f24c1711af8d1b0699e7&query=mrs*&query=friend*&query=visit*&bins=66&view=Trends)
+
 ["miss*" "friend*" "visit"](http://voyant-tools.org/?corpus=7f30c8605fa0f24c1711af8d1b0699e7&query=friend*&query=miss*&query=visit*&bins=66&view=Trends)
+
 ["christmas" "rink" "musical"](http://voyant-tools.org/?corpus=7f30c8605fa0f24c1711af8d1b0699e7&query=christmas&query=rink&query=musical&bins=66&view=Trends)
+
 ["jan*" "carni*"](http://voyant-tools.org/?corpus=7f30c8605fa0f24c1711af8d1b0699e7&query=jan*&query=carni*&bins=66&view=Trends)
+
 ["sept*" "harve*" "fair"](http://voyant-tools.org/?corpus=7f30c8605fa0f24c1711af8d1b0699e7&query=sept*&query=harve*&query=fair&bins=66&view=Trends)
+
 ["feb*" "drama"](http://voyant-tools.org/?corpus=7f30c8605fa0f24c1711af8d1b0699e7&query=feb*&query=drama&bins=66&view=Trends)
+
 ["april*" "cabin"](http://voyant-tools.org/?corpus=7f30c8605fa0f24c1711af8d1b0699e7&query=april*&query=cabin&bins=66&view=Trends)
 
 Voyant word frequency graphs for [1895 corpus:](http://voyant-tools.org/?corpus=bbdeaaf79478c871b4adf68246ed0f5c)
 
 ["miss" "guest*" "friend*" "visit*"](http://voyant-tools.org/?corpus=bbdeaaf79478c871b4adf68246ed0f5c&query=friend*&query=visit*&query=miss&query=guest*&bins=50&view=Trends)
+
 ["mr" "guest*" "friend*" "visit*"](http://voyant-tools.org/?corpus=bbdeaaf79478c871b4adf68246ed0f5c&query=guest*&query=visit*&query=friend*&query=mr&bins=50&view=Trends)
+
 ["mrs" "friend*" "visit*" "guest*"](http://voyant-tools.org/?corpus=bbdeaaf79478c871b4adf68246ed0f5c&query=mrs*&query=friend*&query=visit*&query=guest*&bins=50&view=Trends)
+
 ["ottawa" "carni*" "jan*"](http://voyant-tools.org/?corpus=bbdeaaf79478c871b4adf68246ed0f5c&query=jan*&query=carni*&query=ottawa&bins=50&view=Trends)
 
 These graphs are generally more useful for understanding social events in relation to time than the topic models. For example, looking at the graph for "jan*" and "carni*" for 1890-1900, I can see that the carnival seems to have been a semi-yearly event in January. Both peak at the same points, suggesting that the carnival was only really mentioned in the month of January. It also shows that the carnival didn't really get started as an important event until 1895. Conversely, it seems like "cabin" didn't get strongly associated to "april" until later in the decade; perhaps the number of people vacationing in the region grew, or maybe there's a political reason (as the algorithms likely wouldn't distinguish between a cabin and the Cabinet) or a development in the region. Though these graphs don't show a clear trend in change over time, they can indicate where to look to discover the factors that influenced social live in the Pontiac over this decade.
@@ -165,9 +155,7 @@ This is especially true when I compare the visit data to the mentions of places 
 
 As I mentioned above, these "local events" were most often personal visits. I decided to network model the relationships between people and places in the January 1895 _Equity_. I loaded a .csv of the visits in this format: `place from, place to` into Gephi. I then ran the ForceAtlas2 algorithm to create an initial network. I calculated the PageRank - the relative "prestige" of each place, or how likely one area is to connect to any other - and sized the nodes based on relative PageRank. This created a network of locations based on how many people visited to or from that place.
 
-Then, I added a second node type to my network by importing .csvs containing the information: `person, place visited` and `person, place lived`. This allowed me to visualize which residents may have been connected through their travels, even if they didn't necessarily visit each other. I organized these through the ForceAtlas2 layout, but I did not calculate PageRank, because I wasn't sure if the algorithm was designed for bimodal networks. I also decided not to create any edges between people in order to simplify my already-crowded network. Nor did I I also created a network connecting only people, without nodes for locations, but I found the bimodal network much more interesting. I coloured nodes for people orange and nodes for places green, resulting in this visualization:
-
-Network model of visits in January 1895 _Equity_
+Then, I added a second node type to my network by importing .csvs containing the information: `person, place visited` and `person, place lived`. This allowed me to visualize which residents may have been connected through their travels, even if they didn't necessarily visit each other. I organized these through the ForceAtlas2 layout, but I did not calculate PageRank, because I wasn't sure if the algorithm was designed for bimodal networks. I also decided not to create any edges between people in order to simplify my already-crowded network. Nor did I I also created a network connecting only people, without nodes for locations, but I found the bimodal network much more interesting. I coloured nodes for people orange and nodes for places green. Please see this [github repo](https://github.com/sarahmcole/hist3814o_final_project) or [my Wordpress post](http://sarahmcole.ca/hist3814o/paradata-what-is-there-to-do-around-here-anyway-visualizing-social-ties-in-the-equity-1895/) for the final visualization and graphml file.
 
 The most fascinating part of this network, for me, is the centrality of Ottawa. Shawville has the most connections by far, but Ottawa is the connecting piece between many of the different regions. I wasn't expecting it, but it makes sense that Ottawa, as the biggest city in the region, would be a hub for travel. I was also surprised by the importance of Quyon; I wonder if this has to do more with the correspondant from Quyon (who reported the visits to the region in a letter to the _Equity_) was particularly attentive, or if Quyon was a central location in the region. I'm also interested in the chunks that jumped off of the main graph, although some seem to be mistakes (I noticed a node coloured orange but labelled "Quyon" in one of them, suggesting that they should be connected to the main Quyon node). It's interesting, for example, that Murrel's Settlement and Clarendon are off by themselves, and that Montreal is primarily connected to the network through Parkman. 
 
@@ -203,11 +191,9 @@ Originally, I wanted to do something akin to a non-fiction version of _Welcome t
 
 My final project wound up being closer to a discussion of my findings, told through a loose narrative of social events from the 1895 _Equity_. I actually like this format; it's casual, direct, and easy-to-digest (unlike this massive block of text). To supplement my discussion, I uploaded my visualizations to a blog post hosted on my domain, labelled with a figure number and with a snippet of my podcast to contextualize the visualization. Ideally, people can listen to me chat, and follow along with the visualizations if they're interested.
 
-I recorded my podcast on my iPhone SE. Not ideal, but after I realized I couldn't go through with my original "community calendar" idea, I was hesitant to do a podcast at all. By the time I settled on my final version I had to make do. I edited the audio in Audacity and supplemented it with open-licence music by X obtained from Y. I created a logo in Photoshop CS6 with a map of Shawville obtained from [Z]().
+I recorded my podcast on my iPhone SE. Not ideal, but after I realized I couldn't go through with my original "community calendar" idea, I was hesitant to do a podcast at all. By the time I settled on my final version I had to make do. I edited the audio in Audacity and supplemented it with CC-licenced music by [Nicolai Hedlas](https://soundcloud.com/nicolai-heidlas). I created a logo in Photoshop CS6 with a CC-licenced photo by [Gilles Douaire](https://www.flickr.com/photos/douaireg/8607426436).
 
-In the interest of accessibility, I also (transcribed)[] the final text of my talk, so that people who can't listen to a podcast can access my data as well.
-
-I hosted my entire final project into a post on my blog, with a few listening options: a direct-download link, an embedded Soundcloud player, and an embedded player hosted on my domain.
+I hosted my entire final project into [a post on my blog](http://sarahmcole.ca/hist3814o/final-project-what-do-you-do-for-fun-around-here-a-chat-about-social-life-in-pontiac-county-1895/0), with a few listening options: a [direct-download link](https://www.dropbox.com/s/aqxizzowd43hpz8/SarahCole_HIST3814O_finalproject.wav?dl=0) and an embedded [Soundcloud upload](https://soundcloud.com/sarah-cole-733070670).
 
 # Future work
 
